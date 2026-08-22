@@ -19,7 +19,7 @@
   <meta property="og:url" content="https://nandhakumar-murugan.github.io/google-ecosystem-atlas/">
   <meta property="og:title" content="Google & Alphabet Mega-Ecosystem Atlas (10,263+ Websites)">
   <meta property="og:description" content="The planetary-scale open directory and search explorer for 10,000+ official Google and Alphabet websites, student ambassador hubs, and AI models across 196 countries.">
-  <meta property="og:image" content="https://avatars.githubusercontent.com/u/216025851?v=4">
+  <meta property="og:image" content="https://raw.githubusercontent.com/nandhakumar-murugan/google-ecosystem-atlas/main/assets/banner.png">
   <meta property="og:site_name" content="Google Mega-Ecosystem Atlas">
 
   <!-- Twitter Meta Tags -->
@@ -27,7 +27,7 @@
   <meta name="twitter:url" content="https://nandhakumar-murugan.github.io/google-ecosystem-atlas/">
   <meta name="twitter:title" content="Google & Alphabet Mega-Ecosystem Atlas | Nandhakumar Murugan">
   <meta name="twitter:description" content="Explore 10,263+ official Google and Alphabet websites, developer APIs, student programs, and AI research labs across 196 nations.">
-  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/216025851?v=4">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/nandhakumar-murugan/google-ecosystem-atlas/main/assets/banner.png">
 
   <!-- Schema.org JSON-LD Structured Data for Google Search Knowledge Graph -->
   <script type="application/ld+json">
@@ -102,27 +102,27 @@
       --google-red: #ea4335;
       --google-yellow: #fbbc04;
       --google-green: #34a853;
-      --bg-color: #f8f9fa;
+      --bg-color: #f8fafd;
       --surface-color: #ffffff;
-      --text-main: #202124;
-      --text-secondary: #5f6368;
-      --border-color: #dadce0;
-      --chip-bg: #e8f0fe;
-      --chip-text: #1967d2;
-      --card-shadow: 0 1px 3px rgba(60,64,67,0.12), 0 1px 2px rgba(60,64,67,0.24);
-      --card-hover-shadow: 0 6px 16px rgba(60,64,67,0.2);
+      --text-main: #1f2937;
+      --text-secondary: #4b5563;
+      --border-color: #e2e8f0;
+      --chip-bg: #eff6ff;
+      --chip-text: #1d4ed8;
+      --card-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+      --card-hover-shadow: 0 8px 20px rgba(0,0,0,0.08);
     }
 
     [data-theme="dark"] {
-      --bg-color: #121212;
-      --surface-color: #1e1e1e;
-      --text-main: #e8eaed;
-      --text-secondary: #9aa0a6;
-      --border-color: #3c4043;
-      --chip-bg: #303134;
-      --chip-text: #8ab4f8;
-      --card-shadow: 0 1px 3px rgba(0,0,0,0.5);
-      --card-hover-shadow: 0 8px 24px rgba(0,0,0,0.7);
+      --bg-color: #0b0f19;
+      --surface-color: #111827;
+      --text-main: #f3f4f6;
+      --text-secondary: #9ca3af;
+      --border-color: #1f2937;
+      --chip-bg: #1e293b;
+      --chip-text: #60a5fa;
+      --card-shadow: 0 2px 4px rgba(0,0,0,0.4);
+      --card-hover-shadow: 0 8px 24px rgba(0,0,0,0.6);
     }
 
     * {
@@ -135,8 +135,14 @@
       font-family: 'Roboto', sans-serif;
       background-color: var(--bg-color);
       color: var(--text-main);
-      line-height: 1.5;
-      transition: background-color 0.25s, color 0.25s;
+      line-height: 1.4;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .container-fluid {
+      max-width: 1720px;
+      margin: 0 auto;
+      padding: 0 1rem;
     }
 
     header {
@@ -145,34 +151,32 @@
       position: sticky;
       top: 0;
       z-index: 1000;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
     }
 
     .top-bar {
-      max-width: 1500px;
-      margin: 0 auto;
-      padding: 1rem 1.5rem;
+      padding: 0.5rem 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      gap: 1rem;
+      gap: 0.5rem;
     }
 
     .logo-group {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.6rem;
       flex-wrap: wrap;
     }
 
     .logo-badge {
       font-family: 'Google Sans', sans-serif;
       font-weight: 700;
-      font-size: 1.5rem;
+      font-size: 1.35rem;
       letter-spacing: -0.5px;
       display: flex;
-      gap: 2px;
+      gap: 1.5px;
     }
     .logo-badge .b { color: #4285F4; }
     .logo-badge .r { color: #EA4335; }
@@ -180,28 +184,28 @@
     .logo-badge .g { color: #34A853; }
 
     .creator-pill {
-      font-size: 0.825rem;
+      font-size: 0.775rem;
       font-weight: 600;
-      background: linear-gradient(135deg, #e8f0fe, #d2e3fc);
-      color: #185abc;
-      padding: 0.35rem 0.9rem;
-      border-radius: 20px;
-      border: 1px solid #aecbfa;
+      background: linear-gradient(135deg, #eff6ff, #dbeafe);
+      color: #1d4ed8;
+      padding: 0.25rem 0.75rem;
+      border-radius: 16px;
+      border: 1px solid #bfdbfe;
       display: inline-flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.4rem;
       text-decoration: none;
-      transition: all 0.2s;
     }
 
-    .creator-pill:hover {
-      background: #d2e3fc;
-      transform: scale(1.02);
+    [data-theme="dark"] .creator-pill {
+      background: #1e293b;
+      color: #93c5fd;
+      border-color: #3b82f6;
     }
 
     .creator-avatar {
-      width: 24px;
-      height: 24px;
+      width: 20px;
+      height: 20px;
       border-radius: 50%;
       object-fit: cover;
     }
@@ -209,25 +213,24 @@
     .header-actions {
       display: flex;
       align-items: center;
-      gap: 0.6rem;
+      gap: 0.4rem;
       flex-wrap: wrap;
     }
 
     .social-btn {
       font-family: 'Google Sans', sans-serif;
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       font-weight: 500;
-      padding: 0.45rem 0.8rem;
-      border-radius: 8px;
+      padding: 0.3rem 0.65rem;
+      border-radius: 6px;
       border: 1px solid var(--border-color);
       background-color: var(--surface-color);
       color: var(--text-main);
-      cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 0.4rem;
-      transition: all 0.2s ease;
+      gap: 0.3rem;
       text-decoration: none;
+      transition: all 0.15s;
     }
 
     .social-btn:hover {
@@ -236,159 +239,84 @@
       color: var(--google-blue);
     }
 
-    .social-btn.linkedin:hover {
-      border-color: #0077b5;
-      color: #0077b5;
-    }
-
-    .social-btn.github:hover {
-      border-color: #333;
-      color: #333;
-    }
-
-    .btn {
-      font-family: 'Google Sans', sans-serif;
-      font-size: 0.85rem;
-      font-weight: 500;
-      padding: 0.45rem 0.85rem;
-      border-radius: 8px;
-      border: 1px solid var(--border-color);
-      background-color: var(--surface-color);
-      color: var(--text-main);
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      transition: all 0.2s ease;
-      text-decoration: none;
-    }
-
-    .btn:hover {
-      background-color: var(--chip-bg);
-      border-color: var(--google-blue);
-      color: var(--google-blue);
-    }
-
-    .stats-bar {
-      max-width: 1500px;
-      margin: 0 auto;
-      padding: 0.5rem 1.5rem 1rem;
+    .stats-ticker {
       display: flex;
-      gap: 0.75rem;
-      flex-wrap: wrap;
+      gap: 0.5rem;
+      overflow-x: auto;
+      padding: 0.35rem 1rem 0.45rem;
+      border-top: 1px solid var(--border-color);
+      scrollbar-width: none;
     }
+    .stats-ticker::-webkit-scrollbar { display: none; }
 
     .stat-pill {
-      font-size: 0.8rem;
+      font-size: 0.725rem;
       background-color: var(--chip-bg);
       color: var(--chip-text);
-      padding: 0.3rem 0.8rem;
-      border-radius: 16px;
+      padding: 0.15rem 0.6rem;
+      border-radius: 12px;
       font-weight: 500;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
+      white-space: nowrap;
     }
 
-    .stat-pill strong {
-      font-weight: 700;
-    }
-
-    /* Hero Section */
-    .hero {
-      max-width: 1500px;
-      margin: 1.5rem auto;
-      padding: 0 1.5rem;
+    /* Compact Hero Bar */
+    .hero-compact {
+      margin: 0.75rem auto 0.5rem;
       text-align: center;
+      padding: 0 1rem;
     }
 
-    .hero h1 {
+    .hero-compact h1 {
       font-family: 'Google Sans', sans-serif;
-      font-size: 2.2rem;
+      font-size: 1.45rem;
       font-weight: 700;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.2rem;
     }
 
-    .hero p {
-      font-size: 1rem;
+    .hero-compact p {
+      font-size: 0.85rem;
       color: var(--text-secondary);
-      max-width: 850px;
-      margin: 0 auto 1.25rem;
+      max-width: 900px;
+      margin: 0 auto;
     }
 
-    .author-banner {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.75rem;
-      background-color: var(--surface-color);
-      border: 1px solid var(--border-color);
-      padding: 0.6rem 1.25rem;
-      border-radius: 30px;
-      box-shadow: var(--card-shadow);
-      margin-bottom: 1.25rem;
-      font-size: 0.875rem;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .author-banner a {
-      color: var(--google-blue);
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    .author-banner a:hover {
-      text-decoration: underline;
-    }
-
-    .social-links-bar {
-      display: flex;
-      justify-content: center;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.5rem;
-    }
-
-    /* Filter Controls */
+    /* Controls Bar */
     .controls-wrapper {
-      max-width: 1500px;
-      margin: 0 auto 1.5rem;
-      padding: 0 1.5rem;
+      margin: 0.6rem auto 0.75rem;
       display: flex;
       flex-direction: column;
-      gap: 1rem;
+      gap: 0.5rem;
     }
 
-    .search-box-container {
+    .search-row {
       display: flex;
-      gap: 0.75rem;
-      position: relative;
+      gap: 0.5rem;
       flex-wrap: wrap;
     }
 
     .search-input {
       flex: 1;
-      min-width: 280px;
-      padding: 0.85rem 1.25rem;
-      font-size: 1rem;
-      border-radius: 28px;
+      min-width: 260px;
+      padding: 0.55rem 1rem;
+      font-size: 0.9rem;
+      border-radius: 20px;
       border: 1px solid var(--border-color);
       background-color: var(--surface-color);
       color: var(--text-main);
-      box-shadow: 0 1px 6px rgba(32,33,36,0.08);
       outline: none;
-      transition: all 0.2s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      transition: all 0.15s;
     }
 
     .search-input:focus {
       border-color: var(--google-blue);
-      box-shadow: 0 2px 10px rgba(26,115,232,0.25);
+      box-shadow: 0 0 0 3px rgba(26,115,232,0.15);
     }
 
     .filter-select {
-      padding: 0.75rem 1.25rem;
-      font-size: 0.9rem;
-      border-radius: 20px;
+      padding: 0.5rem 0.85rem;
+      font-size: 0.8rem;
+      border-radius: 16px;
       border: 1px solid var(--border-color);
       background-color: var(--surface-color);
       color: var(--text-main);
@@ -398,85 +326,79 @@
 
     .category-pills {
       display: flex;
-      gap: 0.5rem;
+      gap: 0.35rem;
       overflow-x: auto;
-      padding-bottom: 0.5rem;
+      padding-bottom: 0.25rem;
       scrollbar-width: thin;
     }
 
     .cat-pill {
       font-family: 'Google Sans', sans-serif;
-      font-size: 0.825rem;
+      font-size: 0.75rem;
       font-weight: 500;
-      padding: 0.45rem 0.9rem;
-      border-radius: 18px;
+      padding: 0.3rem 0.75rem;
+      border-radius: 14px;
       border: 1px solid var(--border-color);
       background-color: var(--surface-color);
       color: var(--text-secondary);
       white-space: nowrap;
       cursor: pointer;
-      transition: all 0.15s ease;
+      transition: all 0.1s ease;
     }
 
     .cat-pill:hover {
       background-color: var(--chip-bg);
       color: var(--google-blue);
+      border-color: var(--google-blue);
     }
 
     .cat-pill.active {
       background-color: var(--google-blue);
-      color: white;
+      color: #ffffff;
       border-color: var(--google-blue);
     }
 
-    /* Grid Layout */
+    /* High-Density Grid */
     .grid-container {
-      max-width: 1500px;
       margin: 0 auto;
-      padding: 0 1.5rem 3rem;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 1.25rem;
+      grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+      gap: 0.75rem;
+      padding-bottom: 1.5rem;
     }
 
     .card {
       background-color: var(--surface-color);
       border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 1.25rem;
+      border-radius: 10px;
+      padding: 0.85rem;
       box-shadow: var(--card-shadow);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      position: relative;
-      overflow: hidden;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
 
     .card:hover {
-      transform: translateY(-3px);
+      transform: translateY(-2px);
       box-shadow: var(--card-hover-shadow);
       border-color: var(--google-blue);
     }
 
-    .card-top {
-      margin-bottom: 1rem;
-    }
-
     .card-badges {
       display: flex;
-      gap: 0.4rem;
+      gap: 0.3rem;
       flex-wrap: wrap;
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.4rem;
     }
 
     .badge {
-      font-size: 0.7rem;
+      font-size: 0.65rem;
       font-weight: 700;
-      padding: 0.15rem 0.5rem;
-      border-radius: 6px;
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.3px;
     }
 
     .badge-category { background: #e8f0fe; color: #1967d2; }
@@ -484,29 +406,41 @@
     .badge-country { background: #fef7e0; color: #b06000; }
     .badge-discontinued { background: #fce8e6; color: #c5221f; }
 
+    [data-theme="dark"] .badge-category { background: #1e293b; color: #60a5fa; }
+    [data-theme="dark"] .badge-entity { background: #064e3b; color: #34d399; }
+    [data-theme="dark"] .badge-country { background: #451a03; color: #fbbf24; }
+
     .card-title {
       font-family: 'Google Sans', sans-serif;
-      font-size: 1.1rem;
+      font-size: 0.95rem;
       font-weight: 700;
       color: var(--text-main);
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.25rem;
+      line-height: 1.25;
     }
 
     .card-desc {
-      font-size: 0.875rem;
+      font-size: 0.785rem;
       color: var(--text-secondary);
-      line-height: 1.4;
-      margin-bottom: 0.75rem;
+      line-height: 1.35;
+      margin-bottom: 0.5rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
 
     .card-url {
       font-family: 'Roboto Mono', monospace;
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       color: var(--google-blue);
       word-break: break-all;
-      margin-bottom: 1rem;
+      margin-bottom: 0.6rem;
       display: block;
       text-decoration: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .card-url:hover {
@@ -518,12 +452,12 @@
       justify-content: space-between;
       align-items: center;
       border-top: 1px solid var(--border-color);
-      padding-top: 0.75rem;
+      padding-top: 0.5rem;
       margin-top: auto;
     }
 
     .card-status {
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       font-weight: 600;
       color: var(--google-green);
     }
@@ -533,12 +467,12 @@
 
     .open-btn {
       font-family: 'Google Sans', sans-serif;
-      font-size: 0.8rem;
-      font-weight: 500;
-      padding: 0.35rem 0.75rem;
-      border-radius: 6px;
+      font-size: 0.725rem;
+      font-weight: 600;
+      padding: 0.25rem 0.65rem;
+      border-radius: 4px;
       background-color: var(--google-blue);
-      color: white;
+      color: #ffffff;
       text-decoration: none;
       transition: background 0.15s;
     }
@@ -547,32 +481,31 @@
       background-color: #1557b0;
     }
 
-    /* Pagination */
+    /* Compact Pagination */
     .pagination-bar {
-      max-width: 1500px;
-      margin: 0 auto 3rem;
-      padding: 0 1.5rem;
+      margin: 0 auto 1.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      gap: 1rem;
+      gap: 0.75rem;
     }
 
     .pagination-buttons {
       display: flex;
-      gap: 0.5rem;
+      gap: 0.35rem;
       align-items: center;
     }
 
     .page-btn {
       font-family: 'Google Sans', sans-serif;
-      padding: 0.5rem 0.9rem;
-      border-radius: 8px;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
       border: 1px solid var(--border-color);
       background: var(--surface-color);
       color: var(--text-main);
       cursor: pointer;
+      font-size: 0.8rem;
       font-weight: 500;
     }
 
@@ -583,7 +516,7 @@
 
     .page-btn.active {
       background: var(--google-blue);
-      color: white;
+      color: #ffffff;
       border-color: var(--google-blue);
     }
 
@@ -591,37 +524,31 @@
     .empty-state {
       grid-column: 1 / -1;
       text-align: center;
-      padding: 4rem 1rem;
+      padding: 3rem 1rem;
       color: var(--text-secondary);
-    }
-
-    .empty-state h3 {
-      font-size: 1.4rem;
-      margin-bottom: 0.5rem;
-      color: var(--text-main);
     }
 
     footer {
       background-color: var(--surface-color);
       border-top: 1px solid var(--border-color);
-      padding: 2.5rem 1.5rem;
+      padding: 1.25rem 1rem;
       text-align: center;
-      font-size: 0.875rem;
+      font-size: 0.8rem;
       color: var(--text-secondary);
     }
 
     .footer-author {
       font-weight: 700;
       color: var(--text-main);
-      font-size: 1rem;
-      margin-bottom: 0.35rem;
+      font-size: 0.9rem;
+      margin-bottom: 0.2rem;
     }
 
     .footer-socials {
       display: flex;
       justify-content: center;
-      gap: 1rem;
-      margin-top: 0.75rem;
+      gap: 0.85rem;
+      margin-top: 0.4rem;
       flex-wrap: wrap;
     }
 
@@ -631,75 +558,54 @@
       font-weight: 500;
       display: inline-flex;
       align-items: center;
-      gap: 0.3rem;
-    }
-
-    .footer-socials a:hover {
-      text-decoration: underline;
+      gap: 0.25rem;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <div class="top-bar">
+    <div class="container-fluid top-bar">
       <div class="logo-group">
         <div class="logo-badge">
           <span class="b">G</span><span class="r">o</span><span class="y">o</span><span class="b">g</span><span class="g">l</span><span class="r">e</span>
         </div>
-        <span style="font-weight: 700; font-size: 1.1rem;">Mega-Ecosystem Atlas</span>
+        <span style="font-weight: 700; font-size: 1rem;">Mega-Ecosystem Atlas</span>
         <a href="https://github.com/nandhakumar-murugan" target="_blank" rel="noopener noreferrer" class="creator-pill">
           <img src="https://avatars.githubusercontent.com/u/216025851?v=4" class="creator-avatar" alt="Nandhakumar Murugan">
-          <span>Developed by Nandhakumar Murugan (GSA)</span>
+          <span>Nandhakumar Murugan (Google Student Ambassador)</span>
         </a>
       </div>
 
       <div class="header-actions">
-        <a href="https://github.com/nandhakumar-murugan" target="_blank" rel="noopener noreferrer" class="social-btn github">🐙 GitHub</a>
-        <a href="https://www.linkedin.com/in/nandhakumar-murugan/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin">💼 LinkedIn</a>
+        <a href="https://github.com/nandhakumar-murugan" target="_blank" rel="noopener noreferrer" class="social-btn">🐙 GitHub</a>
+        <a href="https://www.linkedin.com/in/nandhakumar-murugan/" target="_blank" rel="noopener noreferrer" class="social-btn">💼 LinkedIn</a>
         <a href="mailto:24ucy129nandha@kgkite.ac.in" class="social-btn">📧 Email</a>
-        <button id="themeToggle" class="btn">🌙 Dark</button>
-        <a href="data/google_ecosystem.json" download="google_ecosystem.json" class="btn">📥 JSON</a>
-        <a href="data/google_ecosystem.csv" download="google_ecosystem.csv" class="btn">📊 CSV</a>
+        <button id="themeToggle" class="social-btn">🌙 Dark</button>
+        <a href="data/google_ecosystem.json" download="google_ecosystem.json" class="social-btn">📥 JSON</a>
+        <a href="data/google_ecosystem.csv" download="google_ecosystem.csv" class="social-btn">📊 CSV</a>
       </div>
     </div>
 
-    <div class="stats-bar">
+    <div class="container-fluid stats-ticker">
       <div class="stat-pill">🌐 Total Cataloged Sites: <strong id="totalCount">10,263</strong></div>
-      <div class="stat-pill">🌍 Countries Covered: <strong>196 Nations</strong></div>
-      <div class="stat-pill">🎓 GDSC & Universities: <strong>4,800+ Chapters</strong></div>
-      <div class="stat-pill">👥 GDG & Tech Hubs: <strong>2,000+ Chapters</strong></div>
-      <div class="stat-pill">🔬 Frontier AI & DeepMind: <strong>Active</strong></div>
-      <div class="stat-pill">🪦 Graveyard Archive: <strong>Cataloged</strong></div>
+      <div class="stat-pill">🌍 Countries: <strong>196 Nations</strong></div>
+      <div class="stat-pill">🎓 GDSC: <strong>4,800+ Chapters</strong></div>
+      <div class="stat-pill">👥 GDG &amp; Hubs: <strong>2,000+</strong></div>
+      <div class="stat-pill">🔬 Frontier AI: <strong>DeepMind &amp; Gemini</strong></div>
+      <div class="stat-pill">🛡️ Security: <strong>SLSA, OSS-Fuzz</strong></div>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="author-banner">
-        <span>🚀 <b>Lead Creator: <a href="https://github.com/nandhakumar-murugan" target="_blank">Nandhakumar Murugan</a></b></span>
-        <span>•</span>
-        <span>🌐 <b>Google Student Ambassador</b></span>
-        <span>•</span>
-        <span>🛡️ <b>B.E. CS & Cyber Security @ KG KITE</b></span>
-        <span>•</span>
-        <span>📍 <b>Coimbatore, Tamil Nadu, India 🇮🇳</b></span>
-      </div>
-
-      <div class="social-links-bar">
-        <a href="https://github.com/nandhakumar-murugan" target="_blank" class="social-btn github">🐙 GitHub Profile</a>
-        <a href="https://www.linkedin.com/in/nandhakumar-murugan/" target="_blank" class="social-btn linkedin">💼 LinkedIn Profile</a>
-        <a href="mailto:24ucy129nandha@kgkite.ac.in" class="social-btn">📧 Institutional Contact</a>
-        <a href="https://developers.google.com/community/gdsc" target="_blank" class="social-btn">🎓 Google Developer Student Clubs</a>
-      </div>
-
-      <h1>The Google & Alphabet Planetary Ecosystem</h1>
-      <p>The definitive open directory of 10,000+ official Google and Alphabet websites, student ambassador hubs, developer APIs, cloud datacenter regions, localized country services, and research breakthroughs.</p>
-    </section>
+  <main class="container-fluid">
+    <div class="hero-compact">
+      <h1>The Google &amp; Alphabet Planetary Ecosystem</h1>
+      <p>10,263+ official Google and Alphabet websites, developer APIs, student ambassador hubs, and research breakthroughs across 196 nations.</p>
+    </div>
 
     <div class="controls-wrapper">
-      <div class="search-box-container">
-        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search across 10,000+ Google websites by name, topic, keyword, or country...">
+      <div class="search-row">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Instant search across 10,263+ Google websites by name, service, API, keyword, or country...">
         
         <select id="countryFilter" class="filter-select">
           <option value="ALL">🌍 All Countries (196)</option>
@@ -718,15 +624,15 @@
 
         <select id="statusFilter" class="filter-select">
           <option value="ALL">All Statuses</option>
-          <option value="Active">🟢 Active Only</option>
-          <option value="Discontinued">🪦 Discontinued (Graveyard)</option>
+          <option value="Active">🟢 Active</option>
+          <option value="Discontinued">🪦 Graveyard</option>
         </select>
 
         <select id="perPageFilter" class="filter-select">
-          <option value="24">24 per page</option>
-          <option value="48" selected>48 per page</option>
-          <option value="96">96 per page</option>
-          <option value="192">192 per page</option>
+          <option value="36">36 / page</option>
+          <option value="72" selected>72 / page</option>
+          <option value="144">144 / page</option>
+          <option value="288">288 / page</option>
         </select>
       </div>
 
@@ -735,15 +641,15 @@
       </div>
     </div>
 
-    <!-- Website Grid -->
+    <!-- High-Density Website Grid -->
     <div class="grid-container" id="gridContainer">
       <!-- Generated via JS -->
     </div>
 
-    <!-- Pagination Controls -->
+    <!-- Compact Pagination Controls -->
     <div class="pagination-bar" id="paginationBar">
-      <div id="resultsInfo" style="font-size: 0.9rem; color: var(--text-secondary);">
-        Showing 1 to 48 of 10,263 websites
+      <div id="resultsInfo" style="font-size: 0.8rem; color: var(--text-secondary);">
+        Showing 1 to 72 of 10,263 websites
       </div>
       <div class="pagination-buttons" id="paginationControls">
         <!-- Generated via JS -->
@@ -752,15 +658,14 @@
   </main>
 
   <footer>
-    <div class="footer-author">🚀 Developed & Curated by <a href="https://github.com/nandhakumar-murugan" target="_blank" style="color: var(--google-blue); text-decoration: none;">Nandhakumar Murugan</a></div>
-    <p>Google Student Ambassador (GSA) • B.E. CS & Cyber Security @ KG KITE (KGiSL Institute of Technology)</p>
+    <div class="footer-author">🚀 Developed &amp; Curated by <a href="https://github.com/nandhakumar-murugan" target="_blank" style="color: var(--google-blue); text-decoration: none;">Nandhakumar Murugan</a></div>
+    <p>Google Student Ambassador (GSA) • B.E. CS &amp; Cyber Security @ KG KITE (KGiSL Institute of Technology)</p>
     <div class="footer-socials">
       <a href="https://github.com/nandhakumar-murugan" target="_blank">🐙 GitHub</a>
       <a href="https://www.linkedin.com/in/nandhakumar-murugan/" target="_blank">💼 LinkedIn</a>
       <a href="mailto:24ucy129nandha@kgkite.ac.in">📧 24ucy129nandha@kgkite.ac.in</a>
-      <a href="https://developers.google.com/community/gdsc" target="_blank">🎓 GDSC Lead</a>
+      <a href="https://developers.google.com/community/gdsc" target="_blank">🎓 GDSC Chapter</a>
     </div>
-    <p style="margin-top: 0.75rem; font-size: 0.8rem; color: var(--text-secondary);">Built with Google Material Design 3 for the global developer, researcher, and student community.</p>
   </footer>
 
   <!-- Inline Data fallback for instant local file:/// access without CORS -->
@@ -770,7 +675,7 @@
     let allData = [];
     let filteredData = [];
     let currentPage = 1;
-    let itemsPerPage = 48;
+    let itemsPerPage = 72;
     let selectedCategory = "ALL";
     let selectedCountry = "ALL";
     let selectedStatus = "ALL";
@@ -796,7 +701,7 @@
       themeToggle.textContent = isDark ? "☀️ Light" : "🌙 Dark";
     });
 
-    // Check URL parameters for search query (support ?q=...)
+    // Check URL parameters for search query
     const urlParams = new URLSearchParams(window.location.search);
     const initialQuery = urlParams.get('q');
     if (initialQuery) {
@@ -834,12 +739,12 @@
         cats[item.category] = (cats[item.category] || 0) + 1;
       });
 
-      categoryPills.innerHTML = `<button class="cat-pill active" data-category="ALL">All (${allData.length})</button>`;
+      categoryPills.innerHTML = `<button class="cat-pill active" data-category="ALL">All (${allData.length.toLocaleString()})</button>`;
       Object.keys(cats).sort().forEach(cat => {
         const btn = document.createElement("button");
         btn.className = "cat-pill";
         btn.dataset.category = cat;
-        btn.textContent = `${cat} (${cats[cat]})`;
+        btn.textContent = `${cat} (${cats[cat].toLocaleString()})`;
         btn.addEventListener("click", () => {
           document.querySelectorAll(".cat-pill").forEach(p => p.classList.remove("active"));
           btn.classList.add("active");
@@ -913,7 +818,7 @@
         gridContainer.innerHTML = `
           <div class="empty-state">
             <h3>No Google properties found matching "${searchQuery}"</h3>
-            <p>Try refining your search query, selecting another country, or choosing "All Categories".</p>
+            <p>Try searching another keyword or selecting "All Categories".</p>
           </div>
         `;
         resultsInfo.textContent = "Showing 0 of 0 websites";
@@ -933,7 +838,7 @@
         const isDiscontinued = item.status === "Discontinued";
 
         card.innerHTML = `
-          <div class="card-top">
+          <div>
             <div class="card-badges">
               <span class="badge badge-category">${item.category}</span>
               <span class="badge badge-entity">${item.alphabet_entity}</span>
@@ -962,19 +867,18 @@
 
       const prevBtn = document.createElement("button");
       prevBtn.className = "page-btn";
-      prevBtn.textContent = "← Previous";
+      prevBtn.textContent = "← Prev";
       prevBtn.disabled = currentPage === 1;
       prevBtn.addEventListener("click", () => {
         if (currentPage > 1) {
           currentPage--;
           renderGrid();
           renderPagination();
-          window.scrollTo({ top: 350, behavior: 'smooth' });
+          window.scrollTo({ top: 180, behavior: 'smooth' });
         }
       });
       paginationControls.appendChild(prevBtn);
 
-      // Page numbers (smart window)
       let startPage = Math.max(1, currentPage - 2);
       let endPage = Math.min(totalPages, startPage + 4);
       if (endPage - startPage < 4) {
@@ -989,7 +893,7 @@
           currentPage = i;
           renderGrid();
           renderPagination();
-          window.scrollTo({ top: 350, behavior: 'smooth' });
+          window.scrollTo({ top: 180, behavior: 'smooth' });
         });
         paginationControls.appendChild(pageBtn);
       }
@@ -1003,7 +907,7 @@
           currentPage++;
           renderGrid();
           renderPagination();
-          window.scrollTo({ top: 350, behavior: 'smooth' });
+          window.scrollTo({ top: 180, behavior: 'smooth' });
         }
       });
       paginationControls.appendChild(nextBtn);
