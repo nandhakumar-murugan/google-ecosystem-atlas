@@ -636,8 +636,8 @@
       <div class="stat-pill">👥 GDG &amp; Tech Hubs: <strong>2,000+ Chapters</strong></div>
       <div class="stat-pill">🔬 Frontier AI &amp; DeepMind: <strong>Active</strong></div>
       <div class="stat-pill">🪦 Graveyard Archive: <strong>Cataloged</strong></div>
-      <div class="stat-pill" style="background: transparent; padding: 0; display: inline-flex; align-items: center;">
-        <img alt="Live Visitors" src="https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1.svg?view=today-total&style=flat-square&label=Visitors&color=1a73e8&labelColor=0f172a" style="height: 19px; border-radius: 4px;" />
+      <div class="stat-pill" style="background: linear-gradient(135deg, #1e3a8a, #1e40af); color: #dbeafe; border: 1px solid #3b82f6;">
+        👁️ Live Visitors: <strong id="liveVisitorCount" style="color: #ffffff; margin-left: 4px;">1</strong>
       </div>
     </div>
   </header>
@@ -728,10 +728,8 @@
       <a href="mailto:24ucy129nandha@kgkite.ac.in">📧 24ucy129nandha@kgkite.ac.in</a>
       <a href="https://developers.google.com/community/gdsc" target="_blank">🎓 GDSC Chapter</a>
     </div>
-    <div style="margin-top: 0.6rem;">
-      <a href="https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1/" target="_blank" rel="noopener noreferrer">
-        <img alt="Total Atlas Visitors" src="https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1.svg?view=today-total&style=flat-square&label=Total%20Atlas%20Visitors&color=1a73e8&labelColor=0f172a" style="height: 20px; border-radius: 4px;" />
-      </a>
+    <div style="margin-top: 0.75rem; display: inline-flex; align-items: center; gap: 0.5rem; background: var(--chip-bg); padding: 0.35rem 0.9rem; border-radius: 16px; border: 1px solid var(--border-color); font-size: 0.825rem; font-weight: 500;">
+      <span>👁️ Total Atlas Visitors:</span> <strong id="footerVisitorCount" style="color: var(--google-blue); font-size: 0.95rem;">1</strong>
     </div>
   </footer>
 
@@ -1011,8 +1009,44 @@
       filterAndRender();
     });
 
+    // Real-Time Visitor Counter
+    async function initVisitorCounter() {
+      const visitorKey = 'nandha_atlas_visits_count';
+      let count = parseInt(localStorage.getItem(visitorKey) || '1', 10);
+      
+      if (!sessionStorage.getItem('atlas_session_logged')) {
+        count++;
+        localStorage.setItem(visitorKey, count);
+        sessionStorage.setItem('atlas_session_logged', 'true');
+      }
+
+      const updateUI = (val) => {
+        const el1 = document.getElementById("liveVisitorCount");
+        const el2 = document.getElementById("footerVisitorCount");
+        if (el1) el1.textContent = Number(val).toLocaleString();
+        if (el2) el2.textContent = Number(val).toLocaleString();
+      };
+
+      updateUI(count);
+
+      try {
+        const res = await fetch("https://api.counterapi.dev/v1/nandhakumar-murugan-google-atlas/visits/up");
+        if (res.ok) {
+          const data = await res.json();
+          if (data && typeof data.count === 'number') {
+            count = Math.max(count, data.count);
+            localStorage.setItem(visitorKey, count);
+            updateUI(count);
+          }
+        }
+      } catch (err) {
+        // Fallback to client count
+      }
+    }
+
     // Start
     loadData();
+    initVisitorCounter();
   </script>
 </body>
 </html>
