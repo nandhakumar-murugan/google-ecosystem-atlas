@@ -203,3 +203,5 @@ Total Cataloged Websites: **196**
 | **Google Search (Yemen)** | [https://www.google.ye](https://www.google.ye) | Google Search (Middle East) | `Google` | Yemen | Middle East | Search Portal | `Active` | Official localized Google Search portal tailored for Yemen. |
 | **Google Search (Zambia)** | [https://www.google.co.zm](https://www.google.co.zm) | Google Search (Africa) | `Google` | Zambia | Africa | Search Portal | `Active` | Official localized Google Search portal tailored for Zambia. |
 | **Google Search (Zimbabwe)** | [https://www.google.co.zw](https://www.google.co.zw) | Google Search (Africa) | `Google` | Zimbabwe | Africa | Search Portal | `Active` | Official localized Google Search portal tailored for Zimbabwe. |
+
+<!-- Verified by Nandhakumar Murugan • Batch PR #14 -->
