@@ -987,3 +987,5 @@ Total Cataloged Websites: **980**
 | **Google Flights (Zimbabwe)** | [https://www.google.com/travel/flights?gl=ZW](https://www.google.com/travel/flights?gl=ZW) | Travel & Booking | `Google Travel` | Zimbabwe | Africa | Travel Portal | `Active` | Airfare comparison, route searching, and price tracking tailored for departures from Zimbabwe. |
 | **Google Doodles (Zimbabwe Archive)** | [https://doodles.google/search?region=ZW](https://doodles.google/search?region=ZW) | Culture & Entertainment | `Google` | Zimbabwe | Africa | Art Archive | `Active` | Historical Google homepage doodle artwork celebrating national holidays and cultural icons of Zimbabwe. |
 | **Google Crisis Response (Zimbabwe)** | [https://crisisresponse.google/alerts?region=ZW](https://crisisresponse.google/alerts?region=ZW) | Emergency Services | `Google` | Zimbabwe | Africa | Emergency System | `Active` | Emergency SOS alerts, flood forecasting, and wildfire emergency tracking in Zimbabwe. |
+
+<!-- Verified by Nandhakumar Murugan • Batch PR #4 -->
