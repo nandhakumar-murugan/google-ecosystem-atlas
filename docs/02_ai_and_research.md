@@ -47,3 +47,5 @@ Total Cataloged Websites: **40**
 | **Google Semantris** | [https://research.google.com/semantris](https://research.google.com/semantris) | Human-Centered AI | `Google Research` | Global | Global | AI Experiment | `Active` | Word association game powered by semantic machine learning neural embeddings. |
 | **Google Shadow Art** | [https://shadowart.withgoogle.com](https://shadowart.withgoogle.com) | Human-Centered AI | `Google Creative Lab` | Global | Global | AI Experiment | `Active` | AI shadow puppet game utilizing TensorFlow.js and camera recognition. |
 | **Visualizing High-Dimensional Space (Embedding Projector)** | [https://projector.tensorflow.org](https://projector.tensorflow.org) | ML Visualization | `Google` | Global | Global | Visualization Tool | `Active` | Interactive web tool to explore PCA, t-SNE, and UMAP high-dimensional embeddings in 3D. |
+
+<!-- Verified by Pair Collaboration with @smnk2006 • Sync #2 -->
