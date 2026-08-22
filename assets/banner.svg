@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Google Brand Glows -->
+    <radialGradient id="blueGlow" cx="20%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#4285F4" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#4285F4" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="redGlow" cx="80%" cy="20%" r="35%">
+      <stop offset="0%" stop-color="#EA4335" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#EA4335" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="greenGlow" cx="85%" cy="80%" r="35%">
+      <stop offset="0%" stop-color="#34A853" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#34A853" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="yellowGlow" cx="15%" cy="85%" r="35%">
+      <stop offset="0%" stop-color="#FBBC04" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FBBC04" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card Filter -->
+    <filter id="glassShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="240" cy="180" r="300" fill="url(#blueGlow)" />
+  <circle cx="960" cy="150" r="280" fill="url(#redGlow)" />
+  <circle cx="1020" cy="500" r="280" fill="url(#greenGlow)" />
+  <circle cx="180" cy="520" r="280" fill="url(#yellowGlow)" />
+
+  <!-- Decorative Network Grid Lines -->
+  <g stroke="#334155" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="126" x2="1200" y2="126" stroke-dasharray="6,6" />
+    <line x1="0" y1="252" x2="1200" y2="252" stroke-dasharray="6,6" />
+    <line x1="0" y1="378" x2="1200" y2="378" stroke-dasharray="6,6" />
+    <line x1="0" y1="504" x2="1200" y2="504" stroke-dasharray="6,6" />
+
+    <line x1="240" y1="0" x2="240" y2="630" stroke-dasharray="6,6" />
+    <line x1="480" y1="0" x2="480" y2="630" stroke-dasharray="6,6" />
+    <line x1="720" y1="0" x2="720" y2="630" stroke-dasharray="6,6" />
+    <line x1="960" y1="0" x2="960" y2="630" stroke-dasharray="6,6" />
+  </g>
+
+  <!-- Planetary Connection Constellation -->
+  <g stroke="#60a5fa" stroke-width="1.5" opacity="0.6">
+    <line x1="180" y1="220" x2="360" y2="140" />
+    <line x1="360" y1="140" x2="520" y2="240" />
+    <line x1="520" y1="240" x2="680" y2="160" />
+    <line x1="680" y1="160" x2="840" y2="260" />
+    <line x1="840" y1="260" x2="1020" y2="180" />
+    
+    <line x1="260" y1="460" x2="440" y2="380" />
+    <line x1="440" y1="380" x2="620" y2="480" />
+    <line x1="620" y1="480" x2="800" y2="400" />
+    <line x1="800" y1="400" x2="980" y2="490" />
+  </g>
+
+  <!-- Constellation Nodes -->
+  <circle cx="180" cy="220" r="4" fill="#4285F4" />
+  <circle cx="360" cy="140" r="5" fill="#EA4335" />
+  <circle cx="520" cy="240" r="4" fill="#FBBC04" />
+  <circle cx="680" cy="160" r="6" fill="#34A853" />
+  <circle cx="840" cy="260" r="4" fill="#4285F4" />
+  <circle cx="1020" cy="180" r="5" fill="#EA4335" />
+  <circle cx="260" cy="460" r="5" fill="#34A853" />
+  <circle cx="440" cy="380" r="4" fill="#FBBC04" />
+  <circle cx="620" cy="480" r="6" fill="#4285F4" />
+  <circle cx="800" cy="400" r="4" fill="#EA4335" />
+  <circle cx="980" cy="490" r="5" fill="#34A853" />
+
+  <!-- Main Showcase Glassmorphic Card -->
+  <rect x="100" y="80" width="1000" height="470" rx="24" fill="#1e293b" fill-opacity="0.75" stroke="#475569" stroke-width="1.5" filter="url(#glassShadow)" />
+
+  <!-- Top Badge: Google Student Ambassador -->
+  <g transform="translate(140, 120)">
+    <rect width="320" height="36" rx="18" fill="#1e3a8a" fill-opacity="0.8" stroke="#3b82f6" stroke-width="1" />
+    <text x="160" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#93c5fd" text-anchor="middle">
+      ⭐ Google Student Ambassador Project
+    </text>
+  </g>
+
+  <!-- Secondary Badge: Scale -->
+  <g transform="translate(740, 120)">
+    <rect width="320" height="36" rx="18" fill="#064e3b" fill-opacity="0.8" stroke="#10b981" stroke-width="1" />
+    <text x="160" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#6ee7b7" text-anchor="middle">
+      🌐 10,263+ Endpoints • 196 Nations
+    </text>
+  </g>
+
+  <!-- Title Section -->
+  <g transform="translate(140, 210)">
+    <!-- Google 4-Color Title -->
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Google Sans', Roboto, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">
+      <tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC04">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan>
+      <tspan fill="#ffffff"> &amp; Alphabet Atlas</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="400" fill="#94a3b8">
+      The Planetary Open Directory &amp; Knowledge Explorer for Global Developers &amp; Researchers
+    </text>
+  </g>
+
+  <!-- Metric Pills Row -->
+  <g transform="translate(140, 310)">
+    <!-- Pill 1: Universities / GDSC -->
+    <g transform="translate(0, 0)">
+      <rect width="210" height="75" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#38bdf8">7,198+</text>
+      <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94a3b8">GDSC &amp; Student Hubs</text>
+    </g>
+
+    <!-- Pill 2: Search & Consumer -->
+    <g transform="translate(235, 0)">
+      <rect width="210" height="75" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#f87171">980+</text>
+      <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94a3b8">Search &amp; Consumer Sites</text>
+    </g>
+
+    <!-- Pill 3: Developer & Cloud -->
+    <g transform="translate(470, 0)">
+      <rect width="210" height="75" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#4ade80">590+</text>
+      <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94a3b8">Cloud APIs &amp; Datacenters</text>
+    </g>
+
+    <!-- Pill 4: Frontier AI -->
+    <g transform="translate(705, 0)">
+      <rect width="215" height="75" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#fbbf24">DeepMind &amp; AI</text>
+      <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94a3b8">Gemini, Gemma, AlphaFold</text>
+    </g>
+  </g>
+
+  <!-- Author Footer Bar inside Card -->
+  <g transform="translate(140, 420)">
+    <line x1="0" y1="0" x2="920" y2="0" stroke="#334155" stroke-width="1" />
+
+    <!-- Creator Branding -->
+    <g transform="translate(0, 24)">
+      <!-- Avatar Circle -->
+      <circle cx="20" cy="20" r="20" fill="#3b82f6" />
+      <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">NM</text>
+      
+      <!-- Creator Text -->
+      <text x="52" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#f8fafc">
+        Nandhakumar Murugan
+      </text>
+      <text x="52" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94a3b8">
+        Google Student Ambassador • B.E. CS &amp; Cyber Security @ KG KITE
+      </text>
+    </g>
+
+    <!-- Social Chips on Right -->
+    <g transform="translate(680, 28)">
+      <rect width="110" height="28" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
+      <text x="55" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#cbd5e1" text-anchor="middle">🐙 GitHub</text>
+
+      <rect x="120" width="110" height="28" rx="6" fill="#0f172a" stroke="#0077b5" stroke-width="1" />
+      <text x="175" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#38bdf8" text-anchor="middle">💼 LinkedIn</text>
+    </g>
+  </g>
+</svg>

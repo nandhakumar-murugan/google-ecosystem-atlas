@@ -1,5 +1,9 @@
 # 🌐 The Google & Alphabet Mega-Ecosystem Atlas (10,000+ Verified Websites)
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Google & Alphabet Mega-Ecosystem Atlas Banner" width="100%" />
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Websites Cataloged](https://img.shields.io/badge/Cataloged%20Websites-10%2C263%2B-brightgreen.svg)](#)
 [![Countries Covered](https://img.shields.io/badge/Countries%20Covered-196%20Nations-blue.svg)](#)
