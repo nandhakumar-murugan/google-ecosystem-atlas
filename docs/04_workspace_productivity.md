@@ -224,3 +224,5 @@ Total Cataloged Websites: **217**
 | **Google Workspace (Yemen)** | [https://workspace.google.com/intl/ar_ye/](https://workspace.google.com/intl/ar_ye/) | Productivity Suites | `Google Workspace` | Yemen | Middle East | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Yemen. |
 | **Google Workspace (Zambia)** | [https://workspace.google.com/intl/en_zm/](https://workspace.google.com/intl/en_zm/) | Productivity Suites | `Google Workspace` | Zambia | Africa | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Zambia. |
 | **Google Workspace (Zimbabwe)** | [https://workspace.google.com/intl/en_zw/](https://workspace.google.com/intl/en_zw/) | Productivity Suites | `Google Workspace` | Zimbabwe | Africa | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Zimbabwe. |
+
+<!-- Verified by Nandhakumar Murugan • Batch PR #6 -->
