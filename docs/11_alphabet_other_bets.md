@@ -19,3 +19,5 @@ Total Cataloged Websites: **12**
 | **CapitalG Growth Equity** | [https://www.capitalg.com](https://www.capitalg.com) | Growth Equity | `CapitalG` | Global | Global | Growth Equity | `Active` | Growth equity investment fund for scale-up technology companies. |
 | **Google Fiber** | [https://fiber.google.com](https://fiber.google.com) | Telecommunications & ISP | `GFiber` | Global | Global | ISP / Broadband | `Active` | Gigabit fiber-optic internet broadband access provider. |
 | **Google Fi Wireless** | [https://fi.google.com](https://fi.google.com) | Mobile Telecommunications | `Google` | Global | Global | Cellular Service | `Active` | MVNO cellular phone service with flexible international data. |
+
+<!-- Verified by Nandhakumar Murugan • Batch PR #13 -->
