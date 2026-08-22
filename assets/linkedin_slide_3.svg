@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <radialGradient id="purpleGlow" cx="80%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg3)" />
+  <circle cx="900" cy="300" r="450" fill="url(#purpleGlow)" />
+
+  <!-- Top Badge -->
+  <g transform="translate(80, 80)">
+    <rect width="320" height="46" rx="23" fill="#312e81" stroke="#6366f1" stroke-width="1.5" />
+    <text x="160" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#c7d2fe" text-anchor="middle">
+      🔬 Frontier AI &amp; Research
+    </text>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(80, 180)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Google Sans', Roboto, sans-serif" font-size="44" font-weight="800" fill="#ffffff">
+      Google DeepMind &amp; Labs Breakthroughs
+    </text>
+    <text y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" fill="#9ca3af">
+      Cataloging generative models, scientific intelligence, and open research
+    </text>
+  </g>
+
+  <!-- AI Cards Grid -->
+  <g transform="translate(80, 270)">
+    <!-- Gemini & Gemma -->
+    <rect width="445" height="185" rx="20" fill="#111827" stroke="#374151" stroke-width="1.5" />
+    <text x="28" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#38bdf8">✨ Gemini 2.0 &amp; Gemma</text>
+    <text x="28" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#cbd5e1">Multimodal AI models &amp; open-weight weights</text>
+    <text x="28" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">• AI Studio, Vertex AI, and Edge deployment</text>
+    <text x="28" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">• Gemma 2B, 9B, 27B open weights</text>
+
+    <!-- AlphaFold 3 & Biology -->
+    <g transform="translate(475, 0)">
+      <rect width="445" height="185" rx="20" fill="#111827" stroke="#374151" stroke-width="1.5" />
+      <text x="28" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#f43f5e">🧬 AlphaFold 3 &amp; Biology</text>
+      <text x="28" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#cbd5e1">AI for fundamental scientific discovery</text>
+      <text x="28" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">• AlphaFold Server (DNA, RNA, Ligands)</text>
+      <text x="28" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">• AlphaProteo protein binder design</text>
+    </g>
+
+    <!-- NotebookLM & Illuminate -->
+    <g transform="translate(0, 210)">
+      <rect width="445" height="185" rx="20" fill="#111827" stroke="#374151" stroke-width="1.5" />
+      <text x="28" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#fbbf24">🎙️ NotebookLM &amp; Audio</text>
+      <text x="28" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#cbd5e1">Source-grounded personal AI research</text>
+      <text x="28" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">• Audio Overview AI discussion generation</text>
+      <text x="28" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">• Google Illuminate academic paper podcasts</text>
+    </g>
+
+    <!-- SIMA & World Models -->
+    <g transform="translate(475, 210)">
+      <rect width="445" height="185" rx="20" fill="#111827" stroke="#374151" stroke-width="1.5" />
+      <text x="28" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="700" fill="#a855f7">🎮 SIMA &amp; Genie 2</text>
+      <text x="28" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#cbd5e1">Generalist 3D agents &amp; world simulation</text>
+      <text x="28" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">• Scalable multiworld gameplay agent</text>
+      <text x="28" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">• Genie 2 real-time 3D world generator</text>
+    </g>
+
+    <!-- ML Frameworks Row -->
+    <g transform="translate(0, 420)">
+      <rect width="920" height="180" rx="20" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+      <text x="32" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#4ade80">⚙️ Open-Source Frameworks &amp; Tooling</text>
+      <text x="32" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#cbd5e1">JAX (Autograd &amp; XLA) • TensorFlow 2.x • Keras 3 • MediaPipe • Cirq Quantum Framework</text>
+      
+      <g transform="translate(32, 110)">
+        <rect width="160" height="40" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="80" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#38bdf8" text-anchor="middle">JAX Python</text>
+
+        <rect x="180" width="160" height="40" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="260" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#f87171" text-anchor="middle">TensorFlow</text>
+
+        <rect x="360" width="160" height="40" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="440" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#fbbf24" text-anchor="middle">Keras 3</text>
+
+        <rect x="540" width="160" height="40" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="620" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#4ade80" text-anchor="middle">Cirq Quantum</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Author Footer -->
+  <g transform="translate(80, 960)">
+    <text x="0" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#f9fafb">Nandhakumar Murugan</text>
+    <text x="0" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#9ca3af">Google Student Ambassador (GSA)</text>
+
+    <!-- Slide indicator -->
+    <text x="920" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#60a5fa" text-anchor="end">Slide 3 / 4 →</text>
+  </g>
+</svg>

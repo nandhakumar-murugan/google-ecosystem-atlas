@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <radialGradient id="blueGlow4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg4)" />
+  <circle cx="540" cy="540" r="500" fill="url(#blueGlow4)" />
+
+  <!-- Top Badge -->
+  <g transform="translate(80, 80)">
+    <rect width="280" height="46" rx="23" fill="#047857" stroke="#10b981" stroke-width="1.5" />
+    <text x="140" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#a7f3d0" text-anchor="middle">
+      🚀 Open Source &amp; Live
+    </text>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(80, 180)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Google Sans', Roboto, sans-serif" font-size="44" font-weight="800" fill="#ffffff">
+      Explore &amp; Star on GitHub Today!
+    </text>
+    <text y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" fill="#9ca3af">
+      Free, open-source knowledge directory for developers, researchers, and students
+    </text>
+  </g>
+
+  <!-- Central Call to Action Cards -->
+  <g transform="translate(80, 270)">
+    <!-- Web App Card -->
+    <rect width="920" height="180" rx="24" fill="#111827" stroke="#374151" stroke-width="2" />
+    <g transform="translate(36, 45)">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#38bdf8">🌐 Live Interactive Web Explorer</text>
+      <text y="38" font-family="-apple-system, BlinkMacSystemFont, 'Roboto Mono', monospace" font-size="18" fill="#60a5fa">https://nandhakumar-murugan.github.io/google-ecosystem-atlas/</text>
+      <text y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#9ca3af">Search 10,263+ websites, filter across 196 nations with instant Material Design 3 UI.</text>
+    </g>
+
+    <!-- GitHub Card -->
+    <g transform="translate(0, 205)">
+      <rect width="920" height="180" rx="24" fill="#111827" stroke="#374151" stroke-width="2" />
+      <g transform="translate(36, 45)">
+        <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#4ade80">🐙 Open Source GitHub Repository</text>
+        <text y="38" font-family="-apple-system, BlinkMacSystemFont, 'Roboto Mono', monospace" font-size="18" fill="#86efac">https://github.com/nandhakumar-murugan/google-ecosystem-atlas</text>
+        <text y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#9ca3af">Download raw JSON, CSV datasets, Python generators, and contribute via Pull Requests.</text>
+      </g>
+    </g>
+
+    <!-- Author Profile Card -->
+    <g transform="translate(0, 410)">
+      <rect width="920" height="200" rx="24" fill="#1e293b" stroke="#475569" stroke-width="2" />
+      
+      <g transform="translate(36, 45)">
+        <!-- Circle Avatar -->
+        <circle cx="50" cy="50" r="45" fill="#2563eb" />
+        <text x="50" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" fill="#ffffff" text-anchor="middle">NM</text>
+        
+        <g transform="translate(120, 30)">
+          <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#f8fafc">Nandhakumar Murugan</text>
+          <text y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="600" fill="#93c5fd">Google Student Ambassador (GSA)</text>
+          <text y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#cbd5e1">B.E. Computer Science &amp; Cyber Security • KGiSL Institute of Technology (KG KITE)</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Author Footer -->
+  <g transform="translate(80, 960)">
+    <text x="0" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#f9fafb">Nandhakumar Murugan</text>
+    <text x="0" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#9ca3af">Google Student Ambassador (GSA)</text>
+
+    <!-- Slide indicator -->
+    <text x="920" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#10b981" text-anchor="end">Slide 4 / 4 (Final)</text>
+  </g>
+</svg>
