@@ -102,27 +102,27 @@
       --google-red: #ea4335;
       --google-yellow: #fbbc04;
       --google-green: #34a853;
-      --bg-color: #f8fafd;
+      --bg-color: #f8f9fa;
       --surface-color: #ffffff;
-      --text-main: #1f2937;
-      --text-secondary: #4b5563;
-      --border-color: #e2e8f0;
-      --chip-bg: #eff6ff;
-      --chip-text: #1d4ed8;
-      --card-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
-      --card-hover-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      --text-main: #202124;
+      --text-secondary: #5f6368;
+      --border-color: #dadce0;
+      --chip-bg: #e8f0fe;
+      --chip-text: #1967d2;
+      --card-shadow: 0 1px 3px rgba(60,64,67,0.12), 0 1px 2px rgba(60,64,67,0.24);
+      --card-hover-shadow: 0 6px 16px rgba(60,64,67,0.2);
     }
 
     [data-theme="dark"] {
-      --bg-color: #0b0f19;
-      --surface-color: #111827;
-      --text-main: #f3f4f6;
-      --text-secondary: #9ca3af;
-      --border-color: #1f2937;
-      --chip-bg: #1e293b;
-      --chip-text: #60a5fa;
-      --card-shadow: 0 2px 4px rgba(0,0,0,0.4);
-      --card-hover-shadow: 0 8px 24px rgba(0,0,0,0.6);
+      --bg-color: #121212;
+      --surface-color: #1e1e1e;
+      --text-main: #e8eaed;
+      --text-secondary: #9aa0a6;
+      --border-color: #3c4043;
+      --chip-bg: #303134;
+      --chip-text: #8ab4f8;
+      --card-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      --card-hover-shadow: 0 8px 24px rgba(0,0,0,0.7);
     }
 
     * {
@@ -135,14 +135,8 @@
       font-family: 'Roboto', sans-serif;
       background-color: var(--bg-color);
       color: var(--text-main);
-      line-height: 1.4;
-      transition: background-color 0.2s, color 0.2s;
-    }
-
-    .container-fluid {
-      max-width: 1720px;
-      margin: 0 auto;
-      padding: 0 1rem;
+      line-height: 1.5;
+      transition: background-color 0.25s, color 0.25s;
     }
 
     header {
@@ -151,32 +145,34 @@
       position: sticky;
       top: 0;
       z-index: 1000;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     }
 
     .top-bar {
-      padding: 0.5rem 1rem;
+      max-width: 1550px;
+      margin: 0 auto;
+      padding: 0.75rem 1.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 0.75rem;
     }
 
     .logo-group {
       display: flex;
       align-items: center;
-      gap: 0.6rem;
+      gap: 0.75rem;
       flex-wrap: wrap;
     }
 
     .logo-badge {
       font-family: 'Google Sans', sans-serif;
       font-weight: 700;
-      font-size: 1.35rem;
+      font-size: 1.4rem;
       letter-spacing: -0.5px;
       display: flex;
-      gap: 1.5px;
+      gap: 2px;
     }
     .logo-badge .b { color: #4285F4; }
     .logo-badge .r { color: #EA4335; }
@@ -184,28 +180,28 @@
     .logo-badge .g { color: #34A853; }
 
     .creator-pill {
-      font-size: 0.775rem;
+      font-size: 0.8rem;
       font-weight: 600;
-      background: linear-gradient(135deg, #eff6ff, #dbeafe);
-      color: #1d4ed8;
-      padding: 0.25rem 0.75rem;
-      border-radius: 16px;
-      border: 1px solid #bfdbfe;
+      background: linear-gradient(135deg, #e8f0fe, #d2e3fc);
+      color: #185abc;
+      padding: 0.3rem 0.85rem;
+      border-radius: 20px;
+      border: 1px solid #aecbfa;
       display: inline-flex;
       align-items: center;
-      gap: 0.4rem;
+      gap: 0.45rem;
       text-decoration: none;
+      transition: all 0.2s;
     }
 
-    [data-theme="dark"] .creator-pill {
-      background: #1e293b;
-      color: #93c5fd;
-      border-color: #3b82f6;
+    .creator-pill:hover {
+      background: #d2e3fc;
+      transform: scale(1.02);
     }
 
     .creator-avatar {
-      width: 20px;
-      height: 20px;
+      width: 22px;
+      height: 22px;
       border-radius: 50%;
       object-fit: cover;
     }
@@ -213,24 +209,25 @@
     .header-actions {
       display: flex;
       align-items: center;
-      gap: 0.4rem;
+      gap: 0.5rem;
       flex-wrap: wrap;
     }
 
     .social-btn {
       font-family: 'Google Sans', sans-serif;
-      font-size: 0.75rem;
+      font-size: 0.775rem;
       font-weight: 500;
-      padding: 0.3rem 0.65rem;
+      padding: 0.35rem 0.7rem;
       border-radius: 6px;
       border: 1px solid var(--border-color);
       background-color: var(--surface-color);
       color: var(--text-main);
+      cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 0.3rem;
+      gap: 0.35rem;
+      transition: all 0.15s ease;
       text-decoration: none;
-      transition: all 0.15s;
     }
 
     .social-btn:hover {
@@ -239,84 +236,123 @@
       color: var(--google-blue);
     }
 
-    .stats-ticker {
+    .stats-bar {
+      max-width: 1550px;
+      margin: 0 auto;
+      padding: 0.4rem 1.5rem 0.75rem;
       display: flex;
-      gap: 0.5rem;
-      overflow-x: auto;
-      padding: 0.35rem 1rem 0.45rem;
-      border-top: 1px solid var(--border-color);
-      scrollbar-width: none;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      align-items: center;
     }
-    .stats-ticker::-webkit-scrollbar { display: none; }
 
     .stat-pill {
-      font-size: 0.725rem;
+      font-size: 0.75rem;
       background-color: var(--chip-bg);
       color: var(--chip-text);
-      padding: 0.15rem 0.6rem;
-      border-radius: 12px;
+      padding: 0.25rem 0.7rem;
+      border-radius: 14px;
       font-weight: 500;
-      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
     }
 
-    /* Compact Hero Bar */
-    .hero-compact {
-      margin: 0.75rem auto 0.5rem;
-      text-align: center;
-      padding: 0 1rem;
-    }
-
-    .hero-compact h1 {
-      font-family: 'Google Sans', sans-serif;
-      font-size: 1.45rem;
+    .stat-pill strong {
       font-weight: 700;
-      margin-bottom: 0.2rem;
     }
 
-    .hero-compact p {
-      font-size: 0.85rem;
+    /* Hero Section */
+    .hero {
+      max-width: 1550px;
+      margin: 1.25rem auto 1rem;
+      padding: 0 1.5rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.35rem;
+    }
+
+    .hero p {
+      font-size: 0.95rem;
       color: var(--text-secondary);
-      max-width: 900px;
-      margin: 0 auto;
+      max-width: 850px;
+      margin: 0 auto 1rem;
     }
 
-    /* Controls Bar */
+    .author-banner {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      background-color: var(--surface-color);
+      border: 1px solid var(--border-color);
+      padding: 0.5rem 1.1rem;
+      border-radius: 30px;
+      box-shadow: var(--card-shadow);
+      margin-bottom: 0.85rem;
+      font-size: 0.825rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .author-banner a {
+      color: var(--google-blue);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .social-links-bar {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.25rem;
+    }
+
+    /* Filter Controls */
     .controls-wrapper {
-      margin: 0.6rem auto 0.75rem;
+      max-width: 1550px;
+      margin: 0 auto 1.25rem;
+      padding: 0 1.5rem;
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.75rem;
     }
 
-    .search-row {
+    .search-box-container {
       display: flex;
-      gap: 0.5rem;
+      gap: 0.6rem;
+      position: relative;
       flex-wrap: wrap;
     }
 
     .search-input {
       flex: 1;
-      min-width: 260px;
-      padding: 0.55rem 1rem;
-      font-size: 0.9rem;
-      border-radius: 20px;
+      min-width: 280px;
+      padding: 0.75rem 1.1rem;
+      font-size: 0.95rem;
+      border-radius: 24px;
       border: 1px solid var(--border-color);
       background-color: var(--surface-color);
       color: var(--text-main);
+      box-shadow: 0 1px 6px rgba(32,33,36,0.08);
       outline: none;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
       transition: all 0.15s;
     }
 
     .search-input:focus {
       border-color: var(--google-blue);
-      box-shadow: 0 0 0 3px rgba(26,115,232,0.15);
+      box-shadow: 0 2px 10px rgba(26,115,232,0.25);
     }
 
     .filter-select {
-      padding: 0.5rem 0.85rem;
-      font-size: 0.8rem;
-      border-radius: 16px;
+      padding: 0.65rem 1.1rem;
+      font-size: 0.85rem;
+      border-radius: 18px;
       border: 1px solid var(--border-color);
       background-color: var(--surface-color);
       color: var(--text-main);
@@ -326,79 +362,85 @@
 
     .category-pills {
       display: flex;
-      gap: 0.35rem;
+      gap: 0.4rem;
       overflow-x: auto;
-      padding-bottom: 0.25rem;
+      padding-bottom: 0.4rem;
       scrollbar-width: thin;
     }
 
     .cat-pill {
       font-family: 'Google Sans', sans-serif;
-      font-size: 0.75rem;
+      font-size: 0.8rem;
       font-weight: 500;
-      padding: 0.3rem 0.75rem;
-      border-radius: 14px;
+      padding: 0.35rem 0.8rem;
+      border-radius: 16px;
       border: 1px solid var(--border-color);
       background-color: var(--surface-color);
       color: var(--text-secondary);
       white-space: nowrap;
       cursor: pointer;
-      transition: all 0.1s ease;
+      transition: all 0.15s ease;
     }
 
     .cat-pill:hover {
       background-color: var(--chip-bg);
       color: var(--google-blue);
-      border-color: var(--google-blue);
     }
 
     .cat-pill.active {
       background-color: var(--google-blue);
-      color: #ffffff;
+      color: white;
       border-color: var(--google-blue);
     }
 
-    /* High-Density Grid */
+    /* Grid Layout */
     .grid-container {
+      max-width: 1550px;
       margin: 0 auto;
+      padding: 0 1.5rem 2.5rem;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
-      gap: 0.75rem;
-      padding-bottom: 1.5rem;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 1.1rem;
     }
 
     .card {
       background-color: var(--surface-color);
       border: 1px solid var(--border-color);
-      border-radius: 10px;
-      padding: 0.85rem;
+      border-radius: 12px;
+      padding: 1.1rem;
       box-shadow: var(--card-shadow);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      position: relative;
+      overflow: hidden;
     }
 
     .card:hover {
-      transform: translateY(-2px);
+      transform: translateY(-3px);
       box-shadow: var(--card-hover-shadow);
       border-color: var(--google-blue);
     }
 
+    .card-top {
+      margin-bottom: 0.85rem;
+    }
+
     .card-badges {
       display: flex;
-      gap: 0.3rem;
+      gap: 0.35rem;
       flex-wrap: wrap;
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.5rem;
     }
 
     .badge {
-      font-size: 0.65rem;
+      font-size: 0.685rem;
       font-weight: 700;
-      padding: 0.1rem 0.4rem;
-      border-radius: 4px;
+      padding: 0.125rem 0.45rem;
+      border-radius: 5px;
       text-transform: uppercase;
-      letter-spacing: 0.3px;
+      letter-spacing: 0.4px;
     }
 
     .badge-category { background: #e8f0fe; color: #1967d2; }
@@ -406,41 +448,29 @@
     .badge-country { background: #fef7e0; color: #b06000; }
     .badge-discontinued { background: #fce8e6; color: #c5221f; }
 
-    [data-theme="dark"] .badge-category { background: #1e293b; color: #60a5fa; }
-    [data-theme="dark"] .badge-entity { background: #064e3b; color: #34d399; }
-    [data-theme="dark"] .badge-country { background: #451a03; color: #fbbf24; }
-
     .card-title {
       font-family: 'Google Sans', sans-serif;
-      font-size: 0.95rem;
+      font-size: 1.05rem;
       font-weight: 700;
       color: var(--text-main);
-      margin-bottom: 0.25rem;
-      line-height: 1.25;
+      margin-bottom: 0.3rem;
     }
 
     .card-desc {
-      font-size: 0.785rem;
+      font-size: 0.825rem;
       color: var(--text-secondary);
-      line-height: 1.35;
-      margin-bottom: 0.5rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+      line-height: 1.38;
+      margin-bottom: 0.65rem;
     }
 
     .card-url {
       font-family: 'Roboto Mono', monospace;
-      font-size: 0.7rem;
+      font-size: 0.725rem;
       color: var(--google-blue);
       word-break: break-all;
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.85rem;
       display: block;
       text-decoration: none;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
     }
 
     .card-url:hover {
@@ -452,12 +482,12 @@
       justify-content: space-between;
       align-items: center;
       border-top: 1px solid var(--border-color);
-      padding-top: 0.5rem;
+      padding-top: 0.65rem;
       margin-top: auto;
     }
 
     .card-status {
-      font-size: 0.7rem;
+      font-size: 0.725rem;
       font-weight: 600;
       color: var(--google-green);
     }
@@ -467,12 +497,12 @@
 
     .open-btn {
       font-family: 'Google Sans', sans-serif;
-      font-size: 0.725rem;
-      font-weight: 600;
-      padding: 0.25rem 0.65rem;
-      border-radius: 4px;
+      font-size: 0.775rem;
+      font-weight: 500;
+      padding: 0.3rem 0.7rem;
+      border-radius: 5px;
       background-color: var(--google-blue);
-      color: #ffffff;
+      color: white;
       text-decoration: none;
       transition: background 0.15s;
     }
@@ -481,32 +511,34 @@
       background-color: #1557b0;
     }
 
-    /* Compact Pagination */
+    /* Pagination */
     .pagination-bar {
-      margin: 0 auto 1.5rem;
+      max-width: 1550px;
+      margin: 0 auto 2.5rem;
+      padding: 0 1.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      gap: 0.75rem;
+      gap: 1rem;
     }
 
     .pagination-buttons {
       display: flex;
-      gap: 0.35rem;
+      gap: 0.4rem;
       align-items: center;
     }
 
     .page-btn {
       font-family: 'Google Sans', sans-serif;
-      padding: 0.35rem 0.75rem;
-      border-radius: 6px;
+      padding: 0.4rem 0.85rem;
+      border-radius: 7px;
       border: 1px solid var(--border-color);
       background: var(--surface-color);
       color: var(--text-main);
       cursor: pointer;
-      font-size: 0.8rem;
       font-weight: 500;
+      font-size: 0.85rem;
     }
 
     .page-btn:disabled {
@@ -516,7 +548,7 @@
 
     .page-btn.active {
       background: var(--google-blue);
-      color: #ffffff;
+      color: white;
       border-color: var(--google-blue);
     }
 
@@ -524,31 +556,37 @@
     .empty-state {
       grid-column: 1 / -1;
       text-align: center;
-      padding: 3rem 1rem;
+      padding: 4rem 1rem;
       color: var(--text-secondary);
+    }
+
+    .empty-state h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.4rem;
+      color: var(--text-main);
     }
 
     footer {
       background-color: var(--surface-color);
       border-top: 1px solid var(--border-color);
-      padding: 1.25rem 1rem;
+      padding: 2rem 1.5rem;
       text-align: center;
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       color: var(--text-secondary);
     }
 
     .footer-author {
       font-weight: 700;
       color: var(--text-main);
-      font-size: 0.9rem;
-      margin-bottom: 0.2rem;
+      font-size: 0.95rem;
+      margin-bottom: 0.3rem;
     }
 
     .footer-socials {
       display: flex;
       justify-content: center;
       gap: 0.85rem;
-      margin-top: 0.4rem;
+      margin-top: 0.6rem;
       flex-wrap: wrap;
     }
 
@@ -560,20 +598,24 @@
       align-items: center;
       gap: 0.25rem;
     }
+
+    .footer-socials a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
 
   <header>
-    <div class="container-fluid top-bar">
+    <div class="top-bar">
       <div class="logo-group">
         <div class="logo-badge">
           <span class="b">G</span><span class="r">o</span><span class="y">o</span><span class="b">g</span><span class="g">l</span><span class="r">e</span>
         </div>
-        <span style="font-weight: 700; font-size: 1rem;">Mega-Ecosystem Atlas</span>
+        <span style="font-weight: 700; font-size: 1.05rem;">Mega-Ecosystem Atlas</span>
         <a href="https://github.com/nandhakumar-murugan" target="_blank" rel="noopener noreferrer" class="creator-pill">
           <img src="https://avatars.githubusercontent.com/u/216025851?v=4" class="creator-avatar" alt="Nandhakumar Murugan">
-          <span>Nandhakumar Murugan (Google Student Ambassador)</span>
+          <span>Developed by Nandhakumar Murugan (GSA)</span>
         </a>
       </div>
 
@@ -587,22 +629,45 @@
       </div>
     </div>
 
-    <div class="container-fluid stats-ticker">
-      <div class="stat-pill">🌐 Total Sites: <strong id="totalCount">10,263</strong></div>
-      <div class="stat-pill">🌍 Countries: <strong>196 Nations</strong></div>
-      <div class="stat-pill">🎓 GDSC: <strong>4,800+ Chapters</strong></div>
-      <div class="stat-pill">👥 GDG &amp; Hubs: <strong>2,000+</strong></div>
-      <div class="stat-pill">🔬 AI: <strong>DeepMind &amp; Gemini</strong></div>
+    <div class="stats-bar">
+      <div class="stat-pill">🌐 Total Cataloged Sites: <strong id="totalCount">10,263</strong></div>
+      <div class="stat-pill">🌍 Countries Covered: <strong>196 Nations</strong></div>
+      <div class="stat-pill">🎓 GDSC &amp; Universities: <strong>4,800+ Chapters</strong></div>
+      <div class="stat-pill">👥 GDG &amp; Tech Hubs: <strong>2,000+ Chapters</strong></div>
+      <div class="stat-pill">🔬 Frontier AI &amp; DeepMind: <strong>Active</strong></div>
+      <div class="stat-pill">🪦 Graveyard Archive: <strong>Cataloged</strong></div>
       <div class="stat-pill" style="background: transparent; padding: 0; display: inline-flex; align-items: center;">
-        <img alt="Live Visitors" src="https://hits.sh/nandhakumar-murugan.github.io/google-ecosystem-atlas.svg?view=today-total&style=flat-square&label=Visitors&color=1a73e8&labelColor=0f172a" style="height: 18px; border-radius: 4px;" />
+        <img alt="Live Visitors" src="https://hits.sh/nandhakumar-murugan.github.io/google-ecosystem-atlas.svg?view=today-total&style=flat-square&label=Visitors&color=1a73e8&labelColor=0f172a" style="height: 19px; border-radius: 4px;" />
       </div>
     </div>
   </header>
 
-  <main class="container-fluid" style="padding-top: 0.5rem;">
+  <main>
+    <section class="hero">
+      <div class="author-banner">
+        <span>🚀 <b>Lead Creator: <a href="https://github.com/nandhakumar-murugan" target="_blank">Nandhakumar Murugan</a></b></span>
+        <span>•</span>
+        <span>🌐 <b>Google Student Ambassador</b></span>
+        <span>•</span>
+        <span>🛡️ <b>B.E. CS &amp; Cyber Security @ KG KITE</b></span>
+        <span>•</span>
+        <span>📍 <b>Coimbatore, Tamil Nadu, India 🇮🇳</b></span>
+      </div>
+
+      <div class="social-links-bar">
+        <a href="https://github.com/nandhakumar-murugan" target="_blank" class="social-btn">🐙 GitHub Profile</a>
+        <a href="https://www.linkedin.com/in/nandhakumar-murugan/" target="_blank" class="social-btn">💼 LinkedIn Profile</a>
+        <a href="mailto:24ucy129nandha@kgkite.ac.in" class="social-btn">📧 Institutional Contact</a>
+        <a href="https://developers.google.com/community/gdsc" target="_blank" class="social-btn">🎓 Google Developer Student Clubs</a>
+      </div>
+
+      <h1>The Google &amp; Alphabet Planetary Ecosystem</h1>
+      <p>The definitive open directory of 10,000+ official Google and Alphabet websites, student ambassador hubs, developer APIs, cloud datacenter regions, localized country services, and research breakthroughs.</p>
+    </section>
+
     <div class="controls-wrapper">
-      <div class="search-row">
-        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Instant search across 10,263+ Google websites by name, service, API, keyword, or country...">
+      <div class="search-box-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search across 10,000+ Google websites by name, topic, keyword, or country...">
         
         <select id="countryFilter" class="filter-select">
           <option value="ALL">🌍 All Countries (196)</option>
@@ -621,15 +686,15 @@
 
         <select id="statusFilter" class="filter-select">
           <option value="ALL">All Statuses</option>
-          <option value="Active">🟢 Active</option>
-          <option value="Discontinued">🪦 Graveyard</option>
+          <option value="Active">🟢 Active Only</option>
+          <option value="Discontinued">🪦 Discontinued (Graveyard)</option>
         </select>
 
         <select id="perPageFilter" class="filter-select">
-          <option value="36">36 / page</option>
-          <option value="72" selected>72 / page</option>
-          <option value="144">144 / page</option>
-          <option value="288">288 / page</option>
+          <option value="24">24 per page</option>
+          <option value="48" selected>48 per page</option>
+          <option value="96">96 per page</option>
+          <option value="192">192 per page</option>
         </select>
       </div>
 
@@ -638,15 +703,15 @@
       </div>
     </div>
 
-    <!-- High-Density Website Grid -->
+    <!-- Website Grid -->
     <div class="grid-container" id="gridContainer">
       <!-- Generated via JS -->
     </div>
 
-    <!-- Compact Pagination Controls -->
+    <!-- Pagination Controls -->
     <div class="pagination-bar" id="paginationBar">
-      <div id="resultsInfo" style="font-size: 0.8rem; color: var(--text-secondary);">
-        Showing 1 to 72 of 10,263 websites
+      <div id="resultsInfo" style="font-size: 0.85rem; color: var(--text-secondary);">
+        Showing 1 to 48 of 10,263 websites
       </div>
       <div class="pagination-buttons" id="paginationControls">
         <!-- Generated via JS -->
@@ -677,7 +742,7 @@
     let allData = [];
     let filteredData = [];
     let currentPage = 1;
-    let itemsPerPage = 72;
+    let itemsPerPage = 48;
     let selectedCategory = "ALL";
     let selectedCountry = "ALL";
     let selectedStatus = "ALL";
@@ -703,7 +768,7 @@
       themeToggle.textContent = isDark ? "☀️ Light" : "🌙 Dark";
     });
 
-    // Check URL parameters for search query
+    // Check URL parameters for search query (support ?q=...)
     const urlParams = new URLSearchParams(window.location.search);
     const initialQuery = urlParams.get('q');
     if (initialQuery) {
@@ -820,7 +885,7 @@
         gridContainer.innerHTML = `
           <div class="empty-state">
             <h3>No Google properties found matching "${searchQuery}"</h3>
-            <p>Try searching another keyword or selecting "All Categories".</p>
+            <p>Try refining your search query, selecting another country, or choosing "All Categories".</p>
           </div>
         `;
         resultsInfo.textContent = "Showing 0 of 0 websites";
@@ -840,7 +905,7 @@
         const isDiscontinued = item.status === "Discontinued";
 
         card.innerHTML = `
-          <div>
+          <div class="card-top">
             <div class="card-badges">
               <span class="badge badge-category">${item.category}</span>
               <span class="badge badge-entity">${item.alphabet_entity}</span>
@@ -869,18 +934,19 @@
 
       const prevBtn = document.createElement("button");
       prevBtn.className = "page-btn";
-      prevBtn.textContent = "← Prev";
+      prevBtn.textContent = "← Previous";
       prevBtn.disabled = currentPage === 1;
       prevBtn.addEventListener("click", () => {
         if (currentPage > 1) {
           currentPage--;
           renderGrid();
           renderPagination();
-          window.scrollTo({ top: 180, behavior: 'smooth' });
+          window.scrollTo({ top: 350, behavior: 'smooth' });
         }
       });
       paginationControls.appendChild(prevBtn);
 
+      // Page numbers (smart window)
       let startPage = Math.max(1, currentPage - 2);
       let endPage = Math.min(totalPages, startPage + 4);
       if (endPage - startPage < 4) {
@@ -895,7 +961,7 @@
           currentPage = i;
           renderGrid();
           renderPagination();
-          window.scrollTo({ top: 180, behavior: 'smooth' });
+          window.scrollTo({ top: 350, behavior: 'smooth' });
         });
         paginationControls.appendChild(pageBtn);
       }
@@ -909,7 +975,7 @@
           currentPage++;
           renderGrid();
           renderPagination();
-          window.scrollTo({ top: 180, behavior: 'smooth' });
+          window.scrollTo({ top: 350, behavior: 'smooth' });
         }
       });
       paginationControls.appendChild(nextBtn);
