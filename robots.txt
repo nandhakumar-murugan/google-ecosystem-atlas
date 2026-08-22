@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nandhakumar-murugan.github.io/google-ecosystem-atlas/sitemap.xml

@@ -3,7 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Mega-Ecosystem Atlas | Nandhakumar Murugan</title>
+
+  <!-- Primary SEO Meta Tags -->
+  <title>Google & Alphabet Mega-Ecosystem Atlas (10,000+ Websites) | Nandhakumar Murugan</title>
+  <meta name="title" content="Google & Alphabet Mega-Ecosystem Atlas (10,000+ Websites) | Nandhakumar Murugan">
+  <meta name="description" content="Explore 10,263+ official Google and Alphabet websites, developer APIs, student programs, cloud datacenters, and frontier AI research labs across 196 nations. Developed by Nandhakumar Murugan (Google Student Ambassador).">
+  <meta name="keywords" content="Google Ecosystem, Google Websites, Alphabet Companies, Google Developer APIs, Google Student Ambassador, Nandhakumar Murugan, GDSC, DeepMind, Gemini, Google Cloud, AI Research, Google Directory, Open Source Google">
+  <meta name="author" content="Nandhakumar Murugan">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://nandhakumar-murugan.github.io/google-ecosystem-atlas/">
+
+  <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nandhakumar-murugan.github.io/google-ecosystem-atlas/">
+  <meta property="og:title" content="Google & Alphabet Mega-Ecosystem Atlas (10,263+ Websites)">
+  <meta property="og:description" content="The planetary-scale open directory and search explorer for 10,000+ official Google and Alphabet websites, student ambassador hubs, and AI models across 196 countries.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/216025851?v=4">
+  <meta property="og:site_name" content="Google Mega-Ecosystem Atlas">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://nandhakumar-murugan.github.io/google-ecosystem-atlas/">
+  <meta name="twitter:title" content="Google & Alphabet Mega-Ecosystem Atlas | Nandhakumar Murugan">
+  <meta name="twitter:description" content="Explore 10,263+ official Google and Alphabet websites, developer APIs, student programs, and AI research labs across 196 nations.">
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/216025851?v=4">
+
+  <!-- Schema.org JSON-LD Structured Data for Google Search Knowledge Graph -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://nandhakumar-murugan.github.io/google-ecosystem-atlas/#website",
+        "url": "https://nandhakumar-murugan.github.io/google-ecosystem-atlas/",
+        "name": "Google & Alphabet Mega-Ecosystem Atlas",
+        "description": "Planetary-scale open directory cataloging 10,263+ official Google and Alphabet websites, developer APIs, student ambassador chapters, and frontier AI research labs.",
+        "publisher": {
+          "@type": "Person",
+          "name": "Nandhakumar Murugan",
+          "url": "https://github.com/nandhakumar-murugan"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://nandhakumar-murugan.github.io/google-ecosystem-atlas/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://nandhakumar-murugan.github.io/google-ecosystem-atlas/#webapp",
+        "name": "Google Mega-Ecosystem Atlas Explorer",
+        "url": "https://nandhakumar-murugan.github.io/google-ecosystem-atlas/",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "All",
+        "author": {
+          "@type": "Person",
+          "name": "Nandhakumar Murugan",
+          "jobTitle": "Google Student Ambassador (GSA)",
+          "affiliation": {
+            "@type": "EducationalOrganization",
+            "name": "KGiSL Institute of Technology (KG KITE)"
+          },
+          "url": "https://github.com/nandhakumar-murugan",
+          "sameAs": [
+            "https://github.com/nandhakumar-murugan",
+            "https://www.linkedin.com/in/nandhakumar-murugan/"
+          ]
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://nandhakumar-murugan.github.io/google-ecosystem-atlas/#author",
+        "name": "Nandhakumar Murugan",
+        "url": "https://github.com/nandhakumar-murugan",
+        "jobTitle": "Google Student Ambassador & AI Researcher",
+        "worksFor": {
+          "@type": "EducationalOrganization",
+          "name": "KGiSL Institute of Technology (KG KITE)"
+        },
+        "sameAs": [
+          "https://github.com/nandhakumar-murugan",
+          "https://www.linkedin.com/in/nandhakumar-murugan/"
+        ]
+      }
+    ]
+  }
+  </script>
+
   <!-- Material Design 3 Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -707,6 +794,14 @@
       document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
       themeToggle.textContent = isDark ? "☀️ Light" : "🌙 Dark";
     });
+
+    // Check URL parameters for search query (support ?q=...)
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialQuery = urlParams.get('q');
+    if (initialQuery) {
+      searchQuery = initialQuery;
+      searchInput.value = initialQuery;
+    }
 
     async function loadData() {
       if (window.GOOGLE_ECOSYSTEM_DATA && window.GOOGLE_ECOSYSTEM_DATA.entries) {
