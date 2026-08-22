@@ -399,3 +399,5 @@ Total Cataloged Websites: **392**
 | **Google Transparency Report (Zambia)** | [https://transparencyreport.google.com/user-data/overview?country=ZM](https://transparencyreport.google.com/user-data/overview?country=ZM) | Public Accountability | `Google` | Zambia | Africa | Public Report | `Active` | Official accountability disclosures and government data requests reported for Zambia. |
 | **Google Safety Center (Zimbabwe)** | [https://safety.google/intl/en_zw/](https://safety.google/intl/en_zw/) | Consumer Safety & Privacy | `Google Security` | Zimbabwe | Africa | Security Portal | `Active` | Privacy policy, security checkup tools, and family safety controls tailored for Zimbabwe. |
 | **Google Transparency Report (Zimbabwe)** | [https://transparencyreport.google.com/user-data/overview?country=ZW](https://transparencyreport.google.com/user-data/overview?country=ZW) | Public Accountability | `Google` | Zimbabwe | Africa | Public Report | `Active` | Official accountability disclosures and government data requests reported for Zimbabwe. |
+
+<!-- Verified by Nandhakumar Murugan • Batch PR #11 -->
