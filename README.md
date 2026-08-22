@@ -45,6 +45,16 @@
 
 ---
 
+## 📈 Live Project Analytics & Traffic
+
+<p align="left">
+  <a href="https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1/">
+    <img src="https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1.svg?view=today-total&style=for-the-badge&label=Live%20Atlas%20Visitors&color=1a73e8&labelColor=0f172a" alt="Live Atlas Visitors" />
+  </a>
+</p>
+
+---
+
 ## 📊 Planetary Scale & Category Breakdown
 
 | Category | Cataloged Websites | Key Platforms & Highlights |
