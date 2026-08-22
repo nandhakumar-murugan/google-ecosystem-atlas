@@ -114,3 +114,5 @@ google-ecosystem-atlas/
 
 ## 📄 License & Attribution
 Distributed under the **MIT License**. Created and engineered by **Nandhakumar Murugan** (Google Student Ambassador • B.E. CS & Cyber Security @ KG KITE). Free for academic, developer, and research use.
+
+<!-- Verified by Nandhakumar Murugan • Batch PR #17 -->
