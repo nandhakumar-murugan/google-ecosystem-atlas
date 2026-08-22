@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Websites Cataloged](https://img.shields.io/badge/Cataloged%20Websites-10%2C263%2B-brightgreen.svg)](#)
 [![Countries Covered](https://img.shields.io/badge/Countries%20Covered-196%20Nations-blue.svg)](#)
-[![Visitors](https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1.svg?view=today-total&style=flat&label=Visitors&color=1a73e8&labelColor=0f172a)](https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1/)
+[![Visitors](https://komarev.com/ghpvc/?username=nandhakumar-murugan-google-atlas&label=Visitors&color=1a73e8&style=flat)](https://github.com/nandhakumar-murugan/google-ecosystem-atlas)
 [![Author](https://img.shields.io/badge/Author-Nandhakumar%20Murugan-orange.svg)](https://github.com/nandhakumar-murugan)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-nandhakumar--murugan-181717?logo=github)](https://github.com/nandhakumar-murugan)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nandhakumar%20Murugan-0077B5?logo=linkedin)](https://www.linkedin.com/in/nandhakumar-murugan/)
@@ -48,8 +48,8 @@
 ## 📈 Live Project Analytics & Traffic
 
 <p align="left">
-  <a href="https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1/">
-    <img src="https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1.svg?view=today-total&style=for-the-badge&label=Live%20Atlas%20Visitors&color=1a73e8&labelColor=0f172a" alt="Live Atlas Visitors" />
+  <a href="https://github.com/nandhakumar-murugan/google-ecosystem-atlas">
+    <img src="https://komarev.com/ghpvc/?username=nandhakumar-murugan-google-atlas&color=1a73e8&style=for-the-badge&label=LIVE%20ATLAS%20VISITORS" alt="Live Atlas Visitors" />
   </a>
 </p>
 

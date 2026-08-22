@@ -9,7 +9,7 @@
 
     <!-- Google Brand Glows -->
     <radialGradient id="blueGlow" cx="20%" cy="30%" r="40%">
-      <stop offset="0%" stop-color="#4285F4" stop-opacity="0.3" />
+      <stop offset="0%" stop-color="#4285F4" stop-opacity="0.35" />
       <stop offset="100%" stop-color="#4285F4" stop-opacity="0" />
     </radialGradient>
     
@@ -84,80 +84,99 @@
   <circle cx="980" cy="490" r="5" fill="#34A853" />
 
   <!-- Main Showcase Glassmorphic Card -->
-  <rect x="100" y="80" width="1000" height="470" rx="24" fill="#1e293b" fill-opacity="0.75" stroke="#475569" stroke-width="1.5" filter="url(#glassShadow)" />
+  <rect x="80" y="70" width="1040" height="490" rx="24" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1.5" filter="url(#glassShadow)" />
 
-  <!-- Top Badge: Google Student Ambassador -->
-  <g transform="translate(140, 120)">
-    <rect width="320" height="36" rx="18" fill="#1e3a8a" fill-opacity="0.8" stroke="#3b82f6" stroke-width="1" />
-    <text x="160" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#93c5fd" text-anchor="middle">
+  <!-- Top Badges Row -->
+  <g transform="translate(120, 105)">
+    <!-- GSA Badge -->
+    <rect width="300" height="34" rx="17" fill="#1e3a8a" fill-opacity="0.9" stroke="#3b82f6" stroke-width="1" />
+    <text x="150" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#93c5fd" text-anchor="middle">
       ⭐ Google Student Ambassador Project
     </text>
-  </g>
 
-  <!-- Secondary Badge: Scale -->
-  <g transform="translate(740, 120)">
-    <rect width="320" height="36" rx="18" fill="#064e3b" fill-opacity="0.8" stroke="#10b981" stroke-width="1" />
-    <text x="160" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#6ee7b7" text-anchor="middle">
-      🌐 10,263+ Endpoints • 196 Nations
-    </text>
+    <!-- Scale Badge -->
+    <g transform="translate(320, 0)">
+      <rect width="280" height="34" rx="17" fill="#064e3b" fill-opacity="0.9" stroke="#10b981" stroke-width="1" />
+      <text x="140" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#6ee7b7" text-anchor="middle">
+        🌐 10,263+ Endpoints • 196 Nations
+      </text>
+    </g>
+
+    <!-- Live Active Badge -->
+    <g transform="translate(620, 0)">
+      <rect width="250" height="34" rx="17" fill="#701a75" fill-opacity="0.9" stroke="#d946ef" stroke-width="1" />
+      <text x="125" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#f5d0fe" text-anchor="middle">
+        🔥 Live Planetary Traffic Tracking
+      </text>
+    </g>
   </g>
 
   <!-- Title Section -->
-  <g transform="translate(140, 210)">
+  <g transform="translate(120, 190)">
     <!-- Google 4-Color Title -->
-    <text font-family="-apple-system, BlinkMacSystemFont, 'Google Sans', Roboto, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Google Sans', Roboto, sans-serif" font-size="50" font-weight="800" letter-spacing="-1">
       <tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC04">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan>
       <tspan fill="#ffffff"> &amp; Alphabet Atlas</tspan>
     </text>
 
     <!-- Subtitle -->
-    <text y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="400" fill="#94a3b8">
+    <text y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#94a3b8">
       The Planetary Open Directory &amp; Knowledge Explorer for Global Developers &amp; Researchers
     </text>
   </g>
 
-  <!-- Metric Pills Row -->
-  <g transform="translate(140, 310)">
-    <!-- Pill 1: Universities / GDSC -->
+  <!-- Metric Pills Row (5 Columns) -->
+  <g transform="translate(120, 285)">
+    <!-- Pill 1: Student Hubs -->
     <g transform="translate(0, 0)">
-      <rect width="210" height="75" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
-      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#38bdf8">7,198+</text>
-      <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94a3b8">GDSC &amp; Student Hubs</text>
+      <rect width="180" height="85" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="18" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#38bdf8">7,198+</text>
+      <text x="18" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">GDSC Chapters</text>
+      <text x="18" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">Student Hubs</text>
     </g>
 
-    <!-- Pill 2: Search & Consumer -->
-    <g transform="translate(235, 0)">
-      <rect width="210" height="75" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
-      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#f87171">980+</text>
-      <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94a3b8">Search &amp; Consumer Sites</text>
+    <!-- Pill 2: Search Sites -->
+    <g transform="translate(195, 0)">
+      <rect width="180" height="85" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="18" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#f87171">980+</text>
+      <text x="18" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Search &amp; Portals</text>
+      <text x="18" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">196 Nations</text>
     </g>
 
-    <!-- Pill 3: Developer & Cloud -->
-    <g transform="translate(470, 0)">
-      <rect width="210" height="75" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
-      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#4ade80">590+</text>
-      <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94a3b8">Cloud APIs &amp; Datacenters</text>
+    <!-- Pill 3: Cloud APIs -->
+    <g transform="translate(390, 0)">
+      <rect width="180" height="85" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="18" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#4ade80">590+</text>
+      <text x="18" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Cloud &amp; APIs</text>
+      <text x="18" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">Datacenters</text>
     </g>
 
-    <!-- Pill 4: Frontier AI -->
-    <g transform="translate(705, 0)">
-      <rect width="215" height="75" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
-      <text x="20" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#fbbf24">DeepMind &amp; AI</text>
-      <text x="20" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94a3b8">Gemini, Gemma, AlphaFold</text>
+    <!-- Pill 4: DeepMind -->
+    <g transform="translate(585, 0)">
+      <rect width="180" height="85" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="18" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#fbbf24">DeepMind</text>
+      <text x="18" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">Frontier AI</text>
+      <text x="18" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#64748b">Gemini &amp; AlphaFold</text>
+    </g>
+
+    <!-- Pill 5: Live Traffic Tracker -->
+    <g transform="translate(780, 0)">
+      <rect width="180" height="85" rx="14" fill="#0f172a" stroke="#d946ef" stroke-width="1.5" />
+      <text x="18" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#f472b6">● Live Traffic</text>
+      <text x="18" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#fbcfe8">Real-Time Count</text>
+      <text x="18" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#f472b6">Tracking Active</text>
     </g>
   </g>
 
   <!-- Author Footer Bar inside Card -->
-  <g transform="translate(140, 420)">
-    <line x1="0" y1="0" x2="920" y2="0" stroke="#334155" stroke-width="1" />
+  <g transform="translate(120, 420)">
+    <line x1="0" y1="0" x2="960" y2="0" stroke="#334155" stroke-width="1" />
 
     <!-- Creator Branding -->
     <g transform="translate(0, 24)">
-      <!-- Avatar Circle -->
       <circle cx="20" cy="20" r="20" fill="#3b82f6" />
       <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle">NM</text>
       
-      <!-- Creator Text -->
       <text x="52" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#f8fafc">
         Nandhakumar Murugan
       </text>
@@ -167,12 +186,12 @@
     </g>
 
     <!-- Social Chips on Right -->
-    <g transform="translate(680, 28)">
-      <rect width="110" height="28" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
-      <text x="55" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#cbd5e1" text-anchor="middle">🐙 GitHub</text>
+    <g transform="translate(730, 28)">
+      <rect width="105" height="28" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
+      <text x="52" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#cbd5e1" text-anchor="middle">🐙 GitHub</text>
 
-      <rect x="120" width="110" height="28" rx="6" fill="#0f172a" stroke="#0077b5" stroke-width="1" />
-      <text x="175" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#38bdf8" text-anchor="middle">💼 LinkedIn</text>
+      <rect x="115" width="105" height="28" rx="6" fill="#0f172a" stroke="#0077b5" stroke-width="1" />
+      <text x="167" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#38bdf8" text-anchor="middle">💼 LinkedIn</text>
     </g>
   </g>
 </svg>
