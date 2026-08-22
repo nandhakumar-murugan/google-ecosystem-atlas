@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Mega-Ecosystem Atlas | Nandhakumar Murugan</title>
+  <!-- Material Design 3 Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto+Mono:wght@400;500&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --google-blue: #1a73e8;
+      --google-red: #ea4335;
+      --google-yellow: #fbbc04;
+      --google-green: #34a853;
+      --bg-color: #f8f9fa;
+      --surface-color: #ffffff;
+      --text-main: #202124;
+      --text-secondary: #5f6368;
+      --border-color: #dadce0;
+      --chip-bg: #e8f0fe;
+      --chip-text: #1967d2;
+      --card-shadow: 0 1px 3px rgba(60,64,67,0.12), 0 1px 2px rgba(60,64,67,0.24);
+      --card-hover-shadow: 0 6px 16px rgba(60,64,67,0.2);
+    }
+
+    [data-theme="dark"] {
+      --bg-color: #121212;
+      --surface-color: #1e1e1e;
+      --text-main: #e8eaed;
+      --text-secondary: #9aa0a6;
+      --border-color: #3c4043;
+      --chip-bg: #303134;
+      --chip-text: #8ab4f8;
+      --card-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      --card-hover-shadow: 0 8px 24px rgba(0,0,0,0.7);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.5;
+      transition: background-color 0.25s, color 0.25s;
+    }
+
+    header {
+      background-color: var(--surface-color);
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .top-bar {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .logo-badge {
+      font-family: 'Google Sans', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      letter-spacing: -0.5px;
+      display: flex;
+      gap: 2px;
+    }
+    .logo-badge .b { color: #4285F4; }
+    .logo-badge .r { color: #EA4335; }
+    .logo-badge .y { color: #FBBC04; }
+    .logo-badge .g { color: #34A853; }
+
+    .creator-pill {
+      font-size: 0.825rem;
+      font-weight: 600;
+      background: linear-gradient(135deg, #e8f0fe, #d2e3fc);
+      color: #185abc;
+      padding: 0.35rem 0.9rem;
+      border-radius: 20px;
+      border: 1px solid #aecbfa;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .creator-pill:hover {
+      background: #d2e3fc;
+      transform: scale(1.02);
+    }
+
+    .creator-avatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background-color: var(--surface-color);
+      color: var(--text-main);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: var(--chip-bg);
+      border-color: var(--google-blue);
+      color: var(--google-blue);
+    }
+
+    .stats-bar {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 0.5rem 1.5rem 1rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .stat-pill {
+      font-size: 0.8rem;
+      background-color: var(--chip-bg);
+      color: var(--chip-text);
+      padding: 0.3rem 0.8rem;
+      border-radius: 16px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .stat-pill strong {
+      font-weight: 700;
+    }
+
+    /* Hero Section */
+    .hero {
+      max-width: 1500px;
+      margin: 1.5rem auto;
+      padding: 0 1.5rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      max-width: 850px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .author-banner {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      background-color: var(--surface-color);
+      border: 1px solid var(--border-color);
+      padding: 0.6rem 1.25rem;
+      border-radius: 30px;
+      box-shadow: var(--card-shadow);
+      margin-bottom: 1.5rem;
+      font-size: 0.875rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .author-banner a {
+      color: var(--google-blue);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .author-banner a:hover {
+      text-decoration: underline;
+    }
+
+    /* Filter Controls */
+    .controls-wrapper {
+      max-width: 1500px;
+      margin: 0 auto 1.5rem;
+      padding: 0 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .search-box-container {
+      display: flex;
+      gap: 0.75rem;
+      position: relative;
+      flex-wrap: wrap;
+    }
+
+    .search-input {
+      flex: 1;
+      min-width: 280px;
+      padding: 0.85rem 1.25rem;
+      font-size: 1rem;
+      border-radius: 28px;
+      border: 1px solid var(--border-color);
+      background-color: var(--surface-color);
+      color: var(--text-main);
+      box-shadow: 0 1px 6px rgba(32,33,36,0.08);
+      outline: none;
+      transition: all 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--google-blue);
+      box-shadow: 0 2px 10px rgba(26,115,232,0.25);
+    }
+
+    .filter-select {
+      padding: 0.75rem 1.25rem;
+      font-size: 0.9rem;
+      border-radius: 20px;
+      border: 1px solid var(--border-color);
+      background-color: var(--surface-color);
+      color: var(--text-main);
+      cursor: pointer;
+      outline: none;
+    }
+
+    .category-pills {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+      scrollbar-width: thin;
+    }
+
+    .cat-pill {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 0.825rem;
+      font-weight: 500;
+      padding: 0.45rem 0.9rem;
+      border-radius: 18px;
+      border: 1px solid var(--border-color);
+      background-color: var(--surface-color);
+      color: var(--text-secondary);
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .cat-pill:hover {
+      background-color: var(--chip-bg);
+      color: var(--google-blue);
+    }
+
+    .cat-pill.active {
+      background-color: var(--google-blue);
+      color: white;
+      border-color: var(--google-blue);
+    }
+
+    /* Grid Layout */
+    .grid-container {
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .card {
+      background-color: var(--surface-color);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.25rem;
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--card-hover-shadow);
+      border-color: var(--google-blue);
+    }
+
+    .card-top {
+      margin-bottom: 1rem;
+    }
+
+    .card-badges {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.6rem;
+    }
+
+    .badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-category { background: #e8f0fe; color: #1967d2; }
+    .badge-entity { background: #e6f4ea; color: #137333; }
+    .badge-country { background: #fef7e0; color: #b06000; }
+    .badge-discontinued { background: #fce8e6; color: #c5221f; }
+
+    .card-title {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 0.35rem;
+    }
+
+    .card-desc {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      line-height: 1.4;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-url {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--google-blue);
+      word-break: break-all;
+      margin-bottom: 1rem;
+      display: block;
+      text-decoration: none;
+    }
+
+    .card-url:hover {
+      text-decoration: underline;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--border-color);
+      padding-top: 0.75rem;
+      margin-top: auto;
+    }
+
+    .card-status {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--google-green);
+    }
+    .card-status.discontinued {
+      color: var(--google-red);
+    }
+
+    .open-btn {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      background-color: var(--google-blue);
+      color: white;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+
+    .open-btn:hover {
+      background-color: #1557b0;
+    }
+
+    /* Pagination */
+    .pagination-bar {
+      max-width: 1500px;
+      margin: 0 auto 3rem;
+      padding: 0 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .pagination-buttons {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .page-btn {
+      font-family: 'Google Sans', sans-serif;
+      padding: 0.5rem 0.9rem;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      background: var(--surface-color);
+      color: var(--text-main);
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .page-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .page-btn.active {
+      background: var(--google-blue);
+      color: white;
+      border-color: var(--google-blue);
+    }
+
+    /* Empty state */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--text-secondary);
+    }
+
+    .empty-state h3 {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      color: var(--text-main);
+    }
+
+    footer {
+      background-color: var(--surface-color);
+      border-top: 1px solid var(--border-color);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    .footer-author {
+      font-weight: 700;
+      color: var(--text-main);
+      font-size: 1rem;
+      margin-bottom: 0.35rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div class="logo-group">
+        <div class="logo-badge">
+          <span class="b">G</span><span class="r">o</span><span class="y">o</span><span class="b">g</span><span class="g">l</span><span class="r">e</span>
+        </div>
+        <span style="font-weight: 700; font-size: 1.1rem;">Mega-Ecosystem Atlas</span>
+        <a href="https://github.com/nandhakumar-murugan" target="_blank" rel="noopener noreferrer" class="creator-pill">
+          <img src="https://avatars.githubusercontent.com/u/216025851?v=4" class="creator-avatar" alt="Nandhakumar Murugan">
+          <span>Developed by Nandhakumar Murugan (GSA)</span>
+        </a>
+      </div>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="btn">🌙 Dark Mode</button>
+        <a href="data/google_ecosystem.json" download="google_ecosystem.json" class="btn">📥 JSON</a>
+        <a href="data/google_ecosystem.csv" download="google_ecosystem.csv" class="btn">📊 CSV</a>
+      </div>
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat-pill">🌐 Total Cataloged Sites: <strong id="totalCount">10,263</strong></div>
+      <div class="stat-pill">🌍 Countries Covered: <strong>196 Nations</strong></div>
+      <div class="stat-pill">🎓 GDSC & Universities: <strong>4,800+ Chapters</strong></div>
+      <div class="stat-pill">👥 GDG & Tech Hubs: <strong>2,000+ Chapters</strong></div>
+      <div class="stat-pill">🔬 Frontier AI & DeepMind: <strong>Active</strong></div>
+      <div class="stat-pill">🪦 Graveyard Archive: <strong>Cataloged</strong></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="author-banner">
+        <span>🚀 <b>Lead Creator: <a href="https://github.com/nandhakumar-murugan" target="_blank">Nandhakumar Murugan</a></b></span>
+        <span>•</span>
+        <span>🌐 <b>Google Student Ambassador</b></span>
+        <span>•</span>
+        <span>🛡️ <b>B.E. CS & Cyber Security @ KG KITE</b></span>
+        <span>•</span>
+        <span>🚀 <b>Founder @ Prema AI Labs</b></span>
+      </div>
+      <h1>The Google & Alphabet Planetary Ecosystem</h1>
+      <p>The definitive open directory of 10,000+ official Google and Alphabet websites, student ambassador hubs, developer APIs, cloud datacenter regions, localized country services, and research breakthroughs.</p>
+    </section>
+
+    <div class="controls-wrapper">
+      <div class="search-box-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search across 10,000+ Google websites by name, topic, keyword, or country...">
+        
+        <select id="countryFilter" class="filter-select">
+          <option value="ALL">🌍 All Countries (196)</option>
+          <option value="Global">🌐 Global Services</option>
+          <option value="United States">🇺🇸 United States</option>
+          <option value="India">🇮🇳 India</option>
+          <option value="United Kingdom">🇬🇧 United Kingdom</option>
+          <option value="Germany">🇩🇪 Germany</option>
+          <option value="France">🇫🇷 France</option>
+          <option value="Japan">🇯🇵 Japan</option>
+          <option value="Singapore">🇸🇬 Singapore</option>
+          <option value="Brazil">🇧🇷 Brazil</option>
+          <option value="Canada">🇨🇦 Canada</option>
+          <option value="Australia">🇦🇺 Australia</option>
+        </select>
+
+        <select id="statusFilter" class="filter-select">
+          <option value="ALL">All Statuses</option>
+          <option value="Active">🟢 Active Only</option>
+          <option value="Discontinued">🪦 Discontinued (Graveyard)</option>
+        </select>
+
+        <select id="perPageFilter" class="filter-select">
+          <option value="24">24 per page</option>
+          <option value="48" selected>48 per page</option>
+          <option value="96">96 per page</option>
+          <option value="192">192 per page</option>
+        </select>
+      </div>
+
+      <div class="category-pills" id="categoryPills">
+        <button class="cat-pill active" data-category="ALL">All Categories</button>
+      </div>
+    </div>
+
+    <!-- Website Grid -->
+    <div class="grid-container" id="gridContainer">
+      <!-- Generated via JS -->
+    </div>
+
+    <!-- Pagination Controls -->
+    <div class="pagination-bar" id="paginationBar">
+      <div id="resultsInfo" style="font-size: 0.9rem; color: var(--text-secondary);">
+        Showing 1 to 48 of 10,263 websites
+      </div>
+      <div class="pagination-buttons" id="paginationControls">
+        <!-- Generated via JS -->
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-author">🚀 Developed & Curated by <a href="https://github.com/nandhakumar-murugan" target="_blank" style="color: var(--google-blue); text-decoration: none;">Nandhakumar Murugan</a></div>
+    <p>Google Student Ambassador (GSA) • B.E. CS & Cyber Security @ KG KITE • Founder @ Prema AI Labs</p>
+    <p style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-secondary);">Built with Google Material Design 3 for the global developer, researcher, and student community.</p>
+  </footer>
+
+  <!-- Inline Data fallback for instant local file:/// access without CORS -->
+  <script src="data/google_ecosystem.js"></script>
+
+  <script>
+    let allData = [];
+    let filteredData = [];
+    let currentPage = 1;
+    let itemsPerPage = 48;
+    let selectedCategory = "ALL";
+    let selectedCountry = "ALL";
+    let selectedStatus = "ALL";
+    let searchQuery = "";
+
+    // DOM Elements
+    const gridContainer = document.getElementById("gridContainer");
+    const searchInput = document.getElementById("searchInput");
+    const categoryPills = document.getElementById("categoryPills");
+    const countryFilter = document.getElementById("countryFilter");
+    const statusFilter = document.getElementById("statusFilter");
+    const perPageFilter = document.getElementById("perPageFilter");
+    const paginationControls = document.getElementById("paginationControls");
+    const resultsInfo = document.getElementById("resultsInfo");
+    const totalCount = document.getElementById("totalCount");
+    const themeToggle = document.getElementById("themeToggle");
+
+    // Dark Mode Toggle
+    let isDark = false;
+    themeToggle.addEventListener("click", () => {
+      isDark = !isDark;
+      document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
+      themeToggle.textContent = isDark ? "☀️ Light Mode" : "🌙 Dark Mode";
+    });
+
+    async function loadData() {
+      if (window.GOOGLE_ECOSYSTEM_DATA && window.GOOGLE_ECOSYSTEM_DATA.entries) {
+        allData = window.GOOGLE_ECOSYSTEM_DATA.entries;
+        initDashboard();
+        return;
+      }
+
+      try {
+        const res = await fetch("data/google_ecosystem.json");
+        const json = await res.json();
+        allData = json.entries;
+        initDashboard();
+      } catch (err) {
+        console.error("Failed to load JSON, falling back", err);
+      }
+    }
+
+    function initDashboard() {
+      totalCount.textContent = allData.length.toLocaleString();
+      buildCategoryPills();
+      populateCountryFilter();
+      filterAndRender();
+    }
+
+    function buildCategoryPills() {
+      const cats = {};
+      allData.forEach(item => {
+        cats[item.category] = (cats[item.category] || 0) + 1;
+      });
+
+      categoryPills.innerHTML = `<button class="cat-pill active" data-category="ALL">All (${allData.length})</button>`;
+      Object.keys(cats).sort().forEach(cat => {
+        const btn = document.createElement("button");
+        btn.className = "cat-pill";
+        btn.dataset.category = cat;
+        btn.textContent = `${cat} (${cats[cat]})`;
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".cat-pill").forEach(p => p.classList.remove("active"));
+          btn.classList.add("active");
+          selectedCategory = cat;
+          currentPage = 1;
+          filterAndRender();
+        });
+        categoryPills.appendChild(btn);
+      });
+
+      categoryPills.querySelector('[data-category="ALL"]').addEventListener("click", (e) => {
+        document.querySelectorAll(".cat-pill").forEach(p => p.classList.remove("active"));
+        e.target.classList.add("active");
+        selectedCategory = "ALL";
+        currentPage = 1;
+        filterAndRender();
+      });
+    }
+
+    function populateCountryFilter() {
+      const countrySet = new Set();
+      allData.forEach(item => {
+        if (item.country && item.country !== "Global") {
+          countrySet.add(item.country);
+        }
+      });
+      const sortedCountries = Array.from(countrySet).sort();
+      sortedCountries.forEach(c => {
+        const opt = document.createElement("option");
+        opt.value = c;
+        opt.textContent = c;
+        countryFilter.appendChild(opt);
+      });
+    }
+
+    function filterAndRender() {
+      const query = searchQuery.toLowerCase().trim();
+
+      filteredData = allData.filter(item => {
+        // Category filter
+        if (selectedCategory !== "ALL" && item.category !== selectedCategory) return false;
+        
+        // Country filter
+        if (selectedCountry !== "ALL" && item.country !== selectedCountry) return false;
+
+        // Status filter
+        if (selectedStatus !== "ALL" && item.status !== selectedStatus) return false;
+
+        // Text Search
+        if (query) {
+          const matchName = item.name.toLowerCase().includes(query);
+          const matchDesc = item.description.toLowerCase().includes(query);
+          const matchUrl = item.url.toLowerCase().includes(query);
+          const matchSubcat = item.subcategory.toLowerCase().includes(query);
+          const matchTags = item.tags && item.tags.some(t => t.toLowerCase().includes(query));
+          if (!matchName && !matchDesc && !matchUrl && !matchSubcat && !matchTags) {
+            return false;
+          }
+        }
+        return true;
+      });
+
+      renderGrid();
+      renderPagination();
+    }
+
+    function renderGrid() {
+      gridContainer.innerHTML = "";
+
+      if (filteredData.length === 0) {
+        gridContainer.innerHTML = `
+          <div class="empty-state">
+            <h3>No Google properties found matching "${searchQuery}"</h3>
+            <p>Try refining your search query, selecting another country, or choosing "All Categories".</p>
+          </div>
+        `;
+        resultsInfo.textContent = "Showing 0 of 0 websites";
+        return;
+      }
+
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const endIndex = Math.min(startIndex + itemsPerPage, filteredData.length);
+      const pageItems = filteredData.slice(startIndex, endIndex);
+
+      resultsInfo.textContent = `Showing ${(startIndex + 1).toLocaleString()} to ${endIndex.toLocaleString()} of ${filteredData.length.toLocaleString()} websites`;
+
+      pageItems.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const isDiscontinued = item.status === "Discontinued";
+
+        card.innerHTML = `
+          <div class="card-top">
+            <div class="card-badges">
+              <span class="badge badge-category">${item.category}</span>
+              <span class="badge badge-entity">${item.alphabet_entity}</span>
+              ${item.country && item.country !== 'Global' ? `<span class="badge badge-country">📍 ${item.country}</span>` : ''}
+              ${isDiscontinued ? `<span class="badge badge-discontinued">🪦 GRAVEYARD</span>` : ''}
+            </div>
+            <h2 class="card-title">${escapeHtml(item.name)}</h2>
+            <p class="card-desc">${escapeHtml(item.description)}</p>
+          </div>
+          <div>
+            <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="card-url">${escapeHtml(item.url)}</a>
+            <div class="card-footer">
+              <span class="card-status ${isDiscontinued ? 'discontinued' : ''}">${isDiscontinued ? '● Discontinued' : '● ' + item.type}</span>
+              <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="open-btn">Open ↗</a>
+            </div>
+          </div>
+        `;
+        gridContainer.appendChild(card);
+      });
+    }
+
+    function renderPagination() {
+      paginationControls.innerHTML = "";
+      const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+      if (totalPages <= 1) return;
+
+      const prevBtn = document.createElement("button");
+      prevBtn.className = "page-btn";
+      prevBtn.textContent = "← Previous";
+      prevBtn.disabled = currentPage === 1;
+      prevBtn.addEventListener("click", () => {
+        if (currentPage > 1) {
+          currentPage--;
+          renderGrid();
+          renderPagination();
+          window.scrollTo({ top: 350, behavior: 'smooth' });
+        }
+      });
+      paginationControls.appendChild(prevBtn);
+
+      // Page numbers (smart window)
+      let startPage = Math.max(1, currentPage - 2);
+      let endPage = Math.min(totalPages, startPage + 4);
+      if (endPage - startPage < 4) {
+        startPage = Math.max(1, endPage - 4);
+      }
+
+      for (let i = startPage; i <= endPage; i++) {
+        const pageBtn = document.createElement("button");
+        pageBtn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+        pageBtn.textContent = i;
+        pageBtn.addEventListener("click", () => {
+          currentPage = i;
+          renderGrid();
+          renderPagination();
+          window.scrollTo({ top: 350, behavior: 'smooth' });
+        });
+        paginationControls.appendChild(pageBtn);
+      }
+
+      const nextBtn = document.createElement("button");
+      nextBtn.className = "page-btn";
+      nextBtn.textContent = "Next →";
+      nextBtn.disabled = currentPage === totalPages;
+      nextBtn.addEventListener("click", () => {
+        if (currentPage < totalPages) {
+          currentPage++;
+          renderGrid();
+          renderPagination();
+          window.scrollTo({ top: 350, behavior: 'smooth' });
+        }
+      });
+      paginationControls.appendChild(nextBtn);
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+
+    // Event Listeners
+    searchInput.addEventListener("input", (e) => {
+      searchQuery = e.target.value;
+      currentPage = 1;
+      filterAndRender();
+    });
+
+    countryFilter.addEventListener("change", (e) => {
+      selectedCountry = e.target.value;
+      currentPage = 1;
+      filterAndRender();
+    });
+
+    statusFilter.addEventListener("change", (e) => {
+      selectedStatus = e.target.value;
+      currentPage = 1;
+      filterAndRender();
+    });
+
+    perPageFilter.addEventListener("change", (e) => {
+      itemsPerPage = parseInt(e.target.value, 10);
+      currentPage = 1;
+      filterAndRender();
+    });
+
+    // Start
+    loadData();
+  </script>
+</body>
+</html>

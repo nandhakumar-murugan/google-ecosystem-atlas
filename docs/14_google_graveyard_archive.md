@@ -1,0 +1,24 @@
+# Google Ecosystem: Google Graveyard & Legacy Archive
+
+Author: **Nandhakumar Murugan** (Google Student Ambassador • Founder @ Prema AI Labs)
+GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan)
+
+Total Cataloged Websites: **15**
+
+| Product / Web Service | URL | Subcategory | Entity | Country | Region | Type | Status | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Google Reader (Archive)** | [https://en.wikipedia.org/wiki/Google_Reader](https://en.wikipedia.org/wiki/Google_Reader) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Beloved RSS/Atom news feed reader that defined web syndication (2005-2013). |
+| **Google Stadia (Archive)** | [https://stadia.google.com](https://stadia.google.com) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Cloud gaming platform streaming AAA games directly to browser and Chromecast (2019-2023). |
+| **Google+ (Google Plus Archive)** | [https://en.wikipedia.org/wiki/Google%2B](https://en.wikipedia.org/wiki/Google%2B) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Social network platform featuring Circles, Hangouts, and Sparks (2011-2019). |
+| **Google Inbox by Gmail (Archive)** | [https://en.wikipedia.org/wiki/Inbox_by_Gmail](https://en.wikipedia.org/wiki/Inbox_by_Gmail) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Experimental email client pioneering bundles, snoozing, and automated trip cards (2014-2019). |
+| **Orkut (Social Network Archive)** | [https://www.orkut.com](https://www.orkut.com) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Early social networking service wildly popular across Brazil and India (2004-2014). |
+| **Picasa (Archive)** | [https://picasa.google.com](https://picasa.google.com) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Desktop image organizer and photo sharing website, predecessor to Google Photos (2002-2016). |
+| **Google Wave / Apache Wave (Archive)** | [https://en.wikipedia.org/wiki/Apache_Wave](https://en.wikipedia.org/wiki/Apache_Wave) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Real-time collaborative communication framework combining email, instant messaging, and wiki (2009-2012). |
+| **Google Hangouts (Archive)** | [https://en.wikipedia.org/wiki/Google_Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Cross-platform messaging and video calling service succeeded by Google Chat and Meet (2013-2022). |
+| **Google Allo (Archive)** | [https://en.wikipedia.org/wiki/Google_Allo](https://en.wikipedia.org/wiki/Google_Allo) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Instant messaging app that introduced the first mobile preview of Google Assistant (2016-2019). |
+| **Google Duo (Archive)** | [https://en.wikipedia.org/wiki/Google_Duo](https://en.wikipedia.org/wiki/Google_Duo) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Simple, high-quality video calling app that was merged into Google Meet (2016-2022). |
+| **Project Ara (Modular Phone Archive)** | [https://en.wikipedia.org/wiki/Project_Ara](https://en.wikipedia.org/wiki/Project_Ara) | Google Graveyard | `Google ATAP` | Global | Global | Discontinued / Historic | `Discontinued` | Modular smartphone initiative allowing users to swap camera, battery, and sensor blocks (2013-2016). |
+| **Google Glass Enterprise Edition (Archive)** | [https://www.google.com/glass/start](https://www.google.com/glass/start) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Pioneering smart glasses bringing heads-up AR displays to enterprise workers (2013-2023). |
+| **Google Code (Archive)** | [https://code.google.com/archive](https://code.google.com/archive) | Google Graveyard | `Google Open Source` | Global | Global | Discontinued / Historic | `Discontinued` | Open source project hosting service providing revision control and issue tracking (2006-2016). |
+| **iGoogle (Personalized Homepage Archive)** | [https://en.wikipedia.org/wiki/IGoogle](https://en.wikipedia.org/wiki/IGoogle) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Customizable Ajax-based personal start page with gadget widgets (2005-2013). |
+| **Google Cloud IoT Core (Archive)** | [https://cloud.google.com/iot-core](https://cloud.google.com/iot-core) | Google Graveyard | `Google Cloud` | Global | Global | Discontinued / Historic | `Discontinued` | Managed service to easily and securely connect, manage, and ingest IoT data (2017-2023). |
