@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LinkedIn Post Image Studio | Google Ecosystem Atlas</title>
+  <title>LinkedIn Post Images | Nandhakumar Murugan</title>
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -11,17 +11,18 @@
       background: #0f172a;
       color: #f8fafc;
       margin: 0;
-      padding: 2rem;
+      padding: 2rem 1.5rem;
     }
     header {
       max-width: 1200px;
-      margin: 0 auto 2rem;
+      margin: 0 auto 2.5rem;
       text-align: center;
     }
     h1 {
       font-family: 'Google Sans', sans-serif;
       font-size: 2.2rem;
       margin-bottom: 0.5rem;
+      color: #ffffff;
     }
     p {
       color: #94a3b8;
@@ -31,7 +32,7 @@
       max-width: 1200px;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
       gap: 2rem;
     }
     .slide-card {
@@ -44,12 +45,21 @@
       align-items: center;
       box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
     }
+    .slide-title {
+      font-family: 'Google Sans', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      width: 100%;
+      color: #38bdf8;
+    }
     .slide-img {
       width: 100%;
       height: auto;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
       margin-bottom: 1.25rem;
+      border: 1px solid #334155;
     }
     .btn {
       font-family: 'Google Sans', sans-serif;
@@ -70,15 +80,9 @@
     .btn:hover {
       background: #1d4ed8;
     }
-    .btn.png {
-      background: #059669;
-    }
-    .btn.png:hover {
-      background: #047857;
-    }
     .actions {
       display: flex;
-      gap: 0.75rem;
+      gap: 1rem;
       width: 100%;
       justify-content: center;
     }
@@ -87,67 +91,47 @@
 <body>
 
   <header>
-    <h1>💼 LinkedIn Post Image Studio</h1>
-    <p>4 High-Resolution 1080x1080 Carousel Graphics for <strong>Nandhakumar Murugan</strong> (Google Student Ambassador)</p>
+    <h1>💼 LinkedIn Post Carousel Images</h1>
+    <p>4 High-Resolution 1080×1080 PNG Slides for <strong>Nandhakumar Murugan</strong> (Google Student Ambassador)</p>
   </header>
 
   <div class="grid">
     <!-- Slide 1 -->
     <div class="slide-card">
-      <img src="assets/linkedin_slide_1.svg" class="slide-img" id="img1" alt="Slide 1">
+      <div class="slide-title">Slide 1: Hero Cover &amp; Core Metrics</div>
+      <img src="assets/linkedin_slide_1.png" class="slide-img" alt="Slide 1">
       <div class="actions">
-        <a href="assets/linkedin_slide_1.svg" download="linkedin_slide_1.svg" class="btn">📥 Download SVG</a>
-        <button class="btn png" onclick="downloadPng('assets/linkedin_slide_1.svg', 'google_atlas_linkedin_slide_1.png')">📸 Save as PNG</button>
+        <a href="assets/linkedin_slide_1.png" download="01_google_atlas_hero.png" class="btn">📥 Download Slide 1 (PNG)</a>
       </div>
     </div>
 
     <!-- Slide 2 -->
     <div class="slide-card">
-      <img src="assets/linkedin_slide_2.svg" class="slide-img" id="img2" alt="Slide 2">
+      <div class="slide-title">Slide 2: 14 Category Breakdown</div>
+      <img src="assets/linkedin_slide_2.png" class="slide-img" alt="Slide 2">
       <div class="actions">
-        <a href="assets/linkedin_slide_2.svg" download="linkedin_slide_2.svg" class="btn">📥 Download SVG</a>
-        <button class="btn png" onclick="downloadPng('assets/linkedin_slide_2.svg', 'google_atlas_linkedin_slide_2.png')">📸 Save as PNG</button>
+        <a href="assets/linkedin_slide_2.png" download="02_google_atlas_categories.png" class="btn">📥 Download Slide 2 (PNG)</a>
       </div>
     </div>
 
     <!-- Slide 3 -->
     <div class="slide-card">
-      <img src="assets/linkedin_slide_3.svg" class="slide-img" id="img3" alt="Slide 3">
+      <div class="slide-title">Slide 3: DeepMind &amp; Frontier AI</div>
+      <img src="assets/linkedin_slide_3.png" class="slide-img" alt="Slide 3">
       <div class="actions">
-        <a href="assets/linkedin_slide_3.svg" download="linkedin_slide_3.svg" class="btn">📥 Download SVG</a>
-        <button class="btn png" onclick="downloadPng('assets/linkedin_slide_3.svg', 'google_atlas_linkedin_slide_3.png')">📸 Save as PNG</button>
+        <a href="assets/linkedin_slide_3.png" download="03_google_atlas_deepmind.png" class="btn">📥 Download Slide 3 (PNG)</a>
       </div>
     </div>
 
     <!-- Slide 4 -->
     <div class="slide-card">
-      <img src="assets/linkedin_slide_4.svg" class="slide-img" id="img4" alt="Slide 4">
+      <div class="slide-title">Slide 4: Links &amp; Author Call to Action</div>
+      <img src="assets/linkedin_slide_4.png" class="slide-img" alt="Slide 4">
       <div class="actions">
-        <a href="assets/linkedin_slide_4.svg" download="linkedin_slide_4.svg" class="btn">📥 Download SVG</a>
-        <button class="btn png" onclick="downloadPng('assets/linkedin_slide_4.svg', 'google_atlas_linkedin_slide_4.png')">📸 Save as PNG</button>
+        <a href="assets/linkedin_slide_4.png" download="04_google_atlas_links.png" class="btn">📥 Download Slide 4 (PNG)</a>
       </div>
     </div>
   </div>
 
-  <canvas id="exportCanvas" width="1080" height="1080" style="display:none;"></canvas>
-
-  <script>
-    function downloadPng(svgUrl, filename) {
-      const img = new Image();
-      img.crossOrigin = "anonymous";
-      img.onload = function() {
-        const canvas = document.getElementById("exportCanvas");
-        const ctx = canvas.getContext("2d");
-        ctx.clearRect(0, 0, 1080, 1080);
-        ctx.drawImage(img, 0, 0, 1080, 1080);
-        
-        const a = document.createElement("a");
-        a.download = filename;
-        a.href = canvas.toDataURL("image/png");
-        a.click();
-      };
-      img.src = svgUrl;
-    }
-  </script>
 </body>
 </html>
