@@ -10,6 +10,7 @@ Thank you for your interest in contributing to **The Google & Alphabet Mega-Ecos
 2. **Verify / Update URLs**: Keep regional endpoints and docs up-to-date.
 3. **Enhance the Dashboard**: Suggest UI/UX improvements, filters, or visualization features.
 4. **Documentation**: Improve markdown guides in the `docs/` folder.
+5. **Star & Share**: Star the repository on GitHub and share with campus GDSC chapters!
 
 ---
 
