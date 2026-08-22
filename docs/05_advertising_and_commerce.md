@@ -1,7 +1,7 @@
 # Google Ecosystem: Advertising & Commerce
 
-Author: **Nandhakumar Murugan** (Google Student Ambassador • Founder @ Prema AI Labs)
-GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan)
+Author: **Nandhakumar Murugan** (Google Student Ambassador • B.E. CS & Cyber Security @ KG KITE)
+GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan) • LinkedIn: [Nandhakumar Murugan](https://www.linkedin.com/in/nandhakumar-murugan/)
 
 Total Cataloged Websites: **196**
 
@@ -187,7 +187,7 @@ Total Cataloged Websites: **196**
 | **Google Ads (Trinidad and Tobago)** | [https://ads.google.com/intl/en_tt/home/](https://ads.google.com/intl/en_tt/home/) | Search & Display Advertising | `Google Ads` | Trinidad and Tobago | Americas | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Trinidad and Tobago. |
 | **Google Ads (Tunisia)** | [https://ads.google.com/intl/ar_tn/home/](https://ads.google.com/intl/ar_tn/home/) | Search & Display Advertising | `Google Ads` | Tunisia | Africa | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Tunisia. |
 | **Google Ads (Turkey)** | [https://ads.google.com/intl/tr_tr/home/](https://ads.google.com/intl/tr_tr/home/) | Search & Display Advertising | `Google Ads` | Turkey | Europe | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Turkey. |
-| **Google Ads (Turkkmenistan)** | [https://ads.google.com/intl/tk_tm/home/](https://ads.google.com/intl/tk_tm/home/) | Search & Display Advertising | `Google Ads` | Turkkmenistan | Asia | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Turkkmenistan. |
+| **Google Ads (Turkmenistan)** | [https://ads.google.com/intl/tk_tm/home/](https://ads.google.com/intl/tk_tm/home/) | Search & Display Advertising | `Google Ads` | Turkmenistan | Asia | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Turkmenistan. |
 | **Google Ads (Tuvalu)** | [https://ads.google.com/intl/en_tv/home/](https://ads.google.com/intl/en_tv/home/) | Search & Display Advertising | `Google Ads` | Tuvalu | Oceania | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Tuvalu. |
 | **Google Ads (Uganda)** | [https://ads.google.com/intl/en_ug/home/](https://ads.google.com/intl/en_ug/home/) | Search & Display Advertising | `Google Ads` | Uganda | Africa | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Uganda. |
 | **Google Ads (Ukraine)** | [https://ads.google.com/intl/uk_ua/home/](https://ads.google.com/intl/uk_ua/home/) | Search & Display Advertising | `Google Ads` | Ukraine | Europe | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Ukraine. |

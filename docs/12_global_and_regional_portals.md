@@ -1,7 +1,7 @@
 # Google Ecosystem: Global & Regional Portals
 
-Author: **Nandhakumar Murugan** (Google Student Ambassador • Founder @ Prema AI Labs)
-GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan)
+Author: **Nandhakumar Murugan** (Google Student Ambassador • B.E. CS & Cyber Security @ KG KITE)
+GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan) • LinkedIn: [Nandhakumar Murugan](https://www.linkedin.com/in/nandhakumar-murugan/)
 
 Total Cataloged Websites: **196**
 
@@ -187,7 +187,7 @@ Total Cataloged Websites: **196**
 | **Google Search (Trinidad and Tobago)** | [https://www.google.tt](https://www.google.tt) | Google Search (Americas) | `Google` | Trinidad and Tobago | Americas | Search Portal | `Active` | Official localized Google Search portal tailored for Trinidad and Tobago. |
 | **Google Search (Tunisia)** | [https://www.google.tn](https://www.google.tn) | Google Search (Africa) | `Google` | Tunisia | Africa | Search Portal | `Active` | Official localized Google Search portal tailored for Tunisia. |
 | **Google Search (Turkey)** | [https://www.google.com.tr](https://www.google.com.tr) | Google Search (Europe) | `Google` | Turkey | Europe | Search Portal | `Active` | Official localized Google Search portal tailored for Turkey. |
-| **Google Search (Turkkmenistan)** | [https://www.google.tm](https://www.google.tm) | Google Search (Asia) | `Google` | Turkkmenistan | Asia | Search Portal | `Active` | Official localized Google Search portal tailored for Turkkmenistan. |
+| **Google Search (Turkmenistan)** | [https://www.google.tm](https://www.google.tm) | Google Search (Asia) | `Google` | Turkmenistan | Asia | Search Portal | `Active` | Official localized Google Search portal tailored for Turkmenistan. |
 | **Google Search (Tuvalu)** | [https://www.google.tv](https://www.google.tv) | Google Search (Oceania) | `Google` | Tuvalu | Oceania | Search Portal | `Active` | Official localized Google Search portal tailored for Tuvalu. |
 | **Google Search (Uganda)** | [https://www.google.co.ug](https://www.google.co.ug) | Google Search (Africa) | `Google` | Uganda | Africa | Search Portal | `Active` | Official localized Google Search portal tailored for Uganda. |
 | **Google Search (Ukraine)** | [https://www.google.com.ua](https://www.google.com.ua) | Google Search (Europe) | `Google` | Ukraine | Europe | Search Portal | `Active` | Official localized Google Search portal tailored for Ukraine. |

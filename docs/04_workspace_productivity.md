@@ -1,7 +1,7 @@
 # Google Ecosystem: Workspace & Productivity
 
-Author: **Nandhakumar Murugan** (Google Student Ambassador • Founder @ Prema AI Labs)
-GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan)
+Author: **Nandhakumar Murugan** (Google Student Ambassador • B.E. CS & Cyber Security @ KG KITE)
+GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan) • LinkedIn: [Nandhakumar Murugan](https://www.linkedin.com/in/nandhakumar-murugan/)
 
 Total Cataloged Websites: **217**
 
@@ -208,7 +208,7 @@ Total Cataloged Websites: **217**
 | **Google Workspace (Trinidad and Tobago)** | [https://workspace.google.com/intl/en_tt/](https://workspace.google.com/intl/en_tt/) | Productivity Suites | `Google Workspace` | Trinidad and Tobago | Americas | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Trinidad and Tobago. |
 | **Google Workspace (Tunisia)** | [https://workspace.google.com/intl/ar_tn/](https://workspace.google.com/intl/ar_tn/) | Productivity Suites | `Google Workspace` | Tunisia | Africa | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Tunisia. |
 | **Google Workspace (Turkey)** | [https://workspace.google.com/intl/tr_tr/](https://workspace.google.com/intl/tr_tr/) | Productivity Suites | `Google Workspace` | Turkey | Europe | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Turkey. |
-| **Google Workspace (Turkkmenistan)** | [https://workspace.google.com/intl/tk_tm/](https://workspace.google.com/intl/tk_tm/) | Productivity Suites | `Google Workspace` | Turkkmenistan | Asia | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Turkkmenistan. |
+| **Google Workspace (Turkmenistan)** | [https://workspace.google.com/intl/tk_tm/](https://workspace.google.com/intl/tk_tm/) | Productivity Suites | `Google Workspace` | Turkmenistan | Asia | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Turkmenistan. |
 | **Google Workspace (Tuvalu)** | [https://workspace.google.com/intl/en_tv/](https://workspace.google.com/intl/en_tv/) | Productivity Suites | `Google Workspace` | Tuvalu | Oceania | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Tuvalu. |
 | **Google Workspace (Uganda)** | [https://workspace.google.com/intl/en_ug/](https://workspace.google.com/intl/en_ug/) | Productivity Suites | `Google Workspace` | Uganda | Africa | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Uganda. |
 | **Google Workspace (Ukraine)** | [https://workspace.google.com/intl/uk_ua/](https://workspace.google.com/intl/uk_ua/) | Productivity Suites | `Google Workspace` | Ukraine | Europe | Enterprise SaaS | `Active` | Localized Google Workspace cloud productivity suite for businesses in Ukraine. |

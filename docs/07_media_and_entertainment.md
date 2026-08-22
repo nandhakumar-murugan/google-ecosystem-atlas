@@ -1,7 +1,7 @@
 # Google Ecosystem: Media & Entertainment
 
-Author: **Nandhakumar Murugan** (Google Student Ambassador • Founder @ Prema AI Labs)
-GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan)
+Author: **Nandhakumar Murugan** (Google Student Ambassador • B.E. CS & Cyber Security @ KG KITE)
+GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan) • LinkedIn: [Nandhakumar Murugan](https://www.linkedin.com/in/nandhakumar-murugan/)
 
 Total Cataloged Websites: **196**
 
@@ -187,7 +187,7 @@ Total Cataloged Websites: **196**
 | **Google Play Store (Trinidad and Tobago)** | [https://play.google.com/store?gl=TT](https://play.google.com/store?gl=TT) | Digital Storefront | `Google Play` | Trinidad and Tobago | Americas | App Store | `Active` | Official Android applications, games, and digital books catalog in Trinidad and Tobago. |
 | **Google Play Store (Tunisia)** | [https://play.google.com/store?gl=TN](https://play.google.com/store?gl=TN) | Digital Storefront | `Google Play` | Tunisia | Africa | App Store | `Active` | Official Android applications, games, and digital books catalog in Tunisia. |
 | **Google Play Store (Turkey)** | [https://play.google.com/store?gl=TR](https://play.google.com/store?gl=TR) | Digital Storefront | `Google Play` | Turkey | Europe | App Store | `Active` | Official Android applications, games, and digital books catalog in Turkey. |
-| **Google Play Store (Turkkmenistan)** | [https://play.google.com/store?gl=TM](https://play.google.com/store?gl=TM) | Digital Storefront | `Google Play` | Turkkmenistan | Asia | App Store | `Active` | Official Android applications, games, and digital books catalog in Turkkmenistan. |
+| **Google Play Store (Turkmenistan)** | [https://play.google.com/store?gl=TM](https://play.google.com/store?gl=TM) | Digital Storefront | `Google Play` | Turkmenistan | Asia | App Store | `Active` | Official Android applications, games, and digital books catalog in Turkmenistan. |
 | **Google Play Store (Tuvalu)** | [https://play.google.com/store?gl=TV](https://play.google.com/store?gl=TV) | Digital Storefront | `Google Play` | Tuvalu | Oceania | App Store | `Active` | Official Android applications, games, and digital books catalog in Tuvalu. |
 | **Google Play Store (Uganda)** | [https://play.google.com/store?gl=UG](https://play.google.com/store?gl=UG) | Digital Storefront | `Google Play` | Uganda | Africa | App Store | `Active` | Official Android applications, games, and digital books catalog in Uganda. |
 | **Google Play Store (Ukraine)** | [https://play.google.com/store?gl=UA](https://play.google.com/store?gl=UA) | Digital Storefront | `Google Play` | Ukraine | Europe | App Store | `Active` | Official Android applications, games, and digital books catalog in Ukraine. |

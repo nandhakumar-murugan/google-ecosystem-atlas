@@ -1,7 +1,7 @@
 # Google Ecosystem: Geo & Spatial Computing
 
-Author: **Nandhakumar Murugan** (Google Student Ambassador • Founder @ Prema AI Labs)
-GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan)
+Author: **Nandhakumar Murugan** (Google Student Ambassador • B.E. CS & Cyber Security @ KG KITE)
+GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan) • LinkedIn: [Nandhakumar Murugan](https://www.linkedin.com/in/nandhakumar-murugan/)
 
 Total Cataloged Websites: **196**
 
@@ -187,7 +187,7 @@ Total Cataloged Websites: **196**
 | **Google Maps (Trinidad and Tobago)** | [https://maps.google.tt](https://maps.google.tt) | Local Navigation | `Google Maps` | Trinidad and Tobago | Americas | Navigation Service | `Active` | Localized Google Maps and navigation directions in Trinidad and Tobago. |
 | **Google Maps (Tunisia)** | [https://maps.google.tn](https://maps.google.tn) | Local Navigation | `Google Maps` | Tunisia | Africa | Navigation Service | `Active` | Localized Google Maps and navigation directions in Tunisia. |
 | **Google Maps (Turkey)** | [https://maps.google.com.tr](https://maps.google.com.tr) | Local Navigation | `Google Maps` | Turkey | Europe | Navigation Service | `Active` | Localized Google Maps and navigation directions in Turkey. |
-| **Google Maps (Turkkmenistan)** | [https://maps.google.tm](https://maps.google.tm) | Local Navigation | `Google Maps` | Turkkmenistan | Asia | Navigation Service | `Active` | Localized Google Maps and navigation directions in Turkkmenistan. |
+| **Google Maps (Turkmenistan)** | [https://maps.google.tm](https://maps.google.tm) | Local Navigation | `Google Maps` | Turkmenistan | Asia | Navigation Service | `Active` | Localized Google Maps and navigation directions in Turkmenistan. |
 | **Google Maps (Tuvalu)** | [https://maps.google.tv](https://maps.google.tv) | Local Navigation | `Google Maps` | Tuvalu | Oceania | Navigation Service | `Active` | Localized Google Maps and navigation directions in Tuvalu. |
 | **Google Maps (Uganda)** | [https://maps.google.co.ug](https://maps.google.co.ug) | Local Navigation | `Google Maps` | Uganda | Africa | Navigation Service | `Active` | Localized Google Maps and navigation directions in Uganda. |
 | **Google Maps (Ukraine)** | [https://maps.google.com.ua](https://maps.google.com.ua) | Local Navigation | `Google Maps` | Ukraine | Europe | Navigation Service | `Active` | Localized Google Maps and navigation directions in Ukraine. |

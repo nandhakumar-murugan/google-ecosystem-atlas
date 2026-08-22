@@ -5,6 +5,7 @@
 [![Countries Covered](https://img.shields.io/badge/Countries%20Covered-196%20Nations-blue.svg)](#)
 [![Author](https://img.shields.io/badge/Author-Nandhakumar%20Murugan-orange.svg)](https://github.com/nandhakumar-murugan)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-nandhakumar--murugan-181717?logo=github)](https://github.com/nandhakumar-murugan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nandhakumar%20Murugan-0077B5?logo=linkedin)](https://www.linkedin.com/in/nandhakumar-murugan/)
 
 > **The definitive, planetary-scale open directory and interactive knowledge atlas cataloging 10,263+ official Google and Alphabet websites, products, developer APIs, student ambassador chapters, global tech communities, cloud datacenters, localized services, and frontier AI research labs.**
 
@@ -20,18 +21,18 @@
         <sub><b>Nandhakumar Murugan</b></sub>
       </a><br />
       <p><b>Google Student Ambassador 🌐</b></p>
-      <a href="https://github.com/nandhakumar-murugan">🐙 @nandhakumar-murugan</a><br />
-      <a href="mailto:24ucy129nandha@kgkite.ac.in">📧 Email Contact</a>
+      <a href="https://github.com/nandhakumar-murugan">🐙 GitHub</a> •
+      <a href="https://www.linkedin.com/in/nandhakumar-murugan/">💼 LinkedIn</a><br />
+      <a href="mailto:24ucy129nandha@kgkite.ac.in">📧 24ucy129nandha@kgkite.ac.in</a>
     </td>
     <td>
-      <h3>🌟 Creator Profile & Biography</h3>
+      <h3>🌟 Creator Profile & Background</h3>
       <p>This planetary-scale atlas was conceptualized, researched, and engineered by <b>Nandhakumar Murugan</b> to unify the global Google and Alphabet web ecosystem into a single open-source directory for students, developers, and researchers worldwide.</p>
       <ul>
-        <li>🌐 <b>Role</b>: Google Student Ambassador (GSA)</li>
-        <li>🛡️ <b>Education</b>: B.E. Computer Science & Cyber Security @ <b>KG KITE</b> (KGiSL Institute of Technology)</li>
-        <li>🚀 <b>Founder</b>: <b>Prema AI Labs</b> — <i>Building Vernacular AI for India 🇮🇳</i></li>
+        <li>🌐 <b>Role</b>: Google Student Ambassador (GSA) & Campus Lead</li>
+        <li>🛡️ <b>Academic Specialization</b>: B.E. Computer Science & Cyber Security @ <b>KG KITE</b> (KGiSL Institute of Technology)</li>
         <li>📍 <b>Location</b>: Coimbatore, Tamil Nadu, India 🇮🇳</li>
-        <li>🎯 <b>Core Focus</b>: Multimodal Generative AI, Cloud Infrastructure, Open Source Security & Campus Developer Advocacy</li>
+        <li>🎯 <b>Technical Interests</b>: Multimodal Generative AI, Cloud Infrastructure, Open Source Security & Student Developer Advocacy</li>
       </ul>
     </td>
   </tr>
@@ -97,4 +98,4 @@ google-ecosystem-atlas/
 ---
 
 ## 📄 License & Attribution
-Distributed under the **MIT License**. Created and engineered by **Nandhakumar Murugan** (Google Student Ambassador • Founder @ Prema AI Labs). Free for academic, developer, and research use.
+Distributed under the **MIT License**. Created and engineered by **Nandhakumar Murugan** (Google Student Ambassador • B.E. CS & Cyber Security @ KG KITE). Free for academic, developer, and research use.

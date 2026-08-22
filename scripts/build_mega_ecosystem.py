@@ -266,7 +266,7 @@ countries_data = [
     ("Tajikistan", "com.tj", "Asia", "tg", "tj"), ("Tanzania", "co.tz", "Africa", "sw", "tz"), ("Thailand", "co.th", "Asia", "th", "th"),
     ("Timor-Leste", "tl", "Asia", "pt", "tl"), ("Togo", "tg", "Africa", "fr", "tg"), ("Tonga", "to", "Oceania", "to", "to"),
     ("Trinidad and Tobago", "tt", "Americas", "en", "tt"), ("Tunisia", "tn", "Africa", "ar", "tn"), ("Turkey", "com.tr", "Europe", "tr", "tr"),
-    ("Turkkmenistan", "tm", "Asia", "tk", "tm"), ("Tuvalu", "tv", "Oceania", "en", "tv"), ("Uganda", "co.ug", "Africa", "en", "ug"),
+    ("Turkmenistan", "tm", "Asia", "tk", "tm"), ("Tuvalu", "tv", "Oceania", "en", "tv"), ("Uganda", "co.ug", "Africa", "en", "ug"),
     ("Ukraine", "com.ua", "Europe", "uk", "ua"), ("United Arab Emirates", "ae", "Middle East", "ar", "ae"), ("United Kingdom", "co.uk", "Europe", "en", "uk"),
     ("United States", "com", "Americas", "en", "us"), ("Uruguay", "com.uy", "Americas", "es", "uy"), ("Uzbekistan", "co.uz", "Asia", "uz", "uz"),
     ("Vanuatu", "vu", "Oceania", "bi", "vu"), ("Vatican City", "va", "Europe", "it", "va"), ("Venezuela", "co.ve", "Americas", "es", "ve"),
@@ -632,9 +632,11 @@ with open(json_path, "w", encoding="utf-8") as f:
             "title": "The Google & Alphabet Mega-Ecosystem Atlas (10,000+ Verified Websites)",
             "version": "5.0.0",
             "total_websites": len(final_catalog),
-            "author": "Nandhakumar Murugan (Google Student Ambassador • Founder @ Prema AI Labs)",
+            "author": "Nandhakumar Murugan (Google Student Ambassador)",
             "institution": "KGiSL Institute of Technology (KGiTE)",
             "github": "https://github.com/nandhakumar-murugan",
+            "linkedin": "https://www.linkedin.com/in/nandhakumar-murugan/",
+            "email": "24ucy129nandha@kgkite.ac.in",
             "description": "The definitive 10,000+ directory of all official Google and Alphabet websites, products, developer APIs, student programs, country portals, and AI research breakthroughs."
         },
         "entries": final_catalog
@@ -649,8 +651,10 @@ with open(js_path, "w", encoding="utf-8") as f:
             "title": "The Google & Alphabet Mega-Ecosystem Atlas (10,000+ Verified Websites)",
             "version": "5.0.0",
             "total_websites": len(final_catalog),
-            "author": "Nandhakumar Murugan (Google Student Ambassador • Founder @ Prema AI Labs)",
-            "github": "https://github.com/nandhakumar-murugan"
+            "author": "Nandhakumar Murugan (Google Student Ambassador)",
+            "institution": "KGiSL Institute of Technology (KGiTE)",
+            "github": "https://github.com/nandhakumar-murugan",
+            "linkedin": "https://www.linkedin.com/in/nandhakumar-murugan/"
         },
         "entries": final_catalog
     }) + ";\n")
@@ -700,8 +704,8 @@ for cat_name, fname in doc_file_mapping.items():
     doc_path = DOCS_DIR / fname
     with open(doc_path, "w", encoding="utf-8") as f:
         f.write(f"# Google Ecosystem: {cat_name}\n\n")
-        f.write(f"Author: **Nandhakumar Murugan** (Google Student Ambassador • Founder @ Prema AI Labs)\n")
-        f.write(f"GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan)\n\n")
+        f.write(f"Author: **Nandhakumar Murugan** (Google Student Ambassador • B.E. CS & Cyber Security @ KG KITE)\n")
+        f.write(f"GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan) • LinkedIn: [Nandhakumar Murugan](https://www.linkedin.com/in/nandhakumar-murugan/)\n\n")
         f.write(f"Total Cataloged Websites: **{len(cat_items)}**\n\n")
         f.write("| Product / Web Service | URL | Subcategory | Entity | Country | Region | Type | Status | Description |\n")
         f.write("| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n")

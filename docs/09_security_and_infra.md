@@ -1,7 +1,7 @@
 # Google Ecosystem: Security, Privacy & Infrastructure
 
-Author: **Nandhakumar Murugan** (Google Student Ambassador • Founder @ Prema AI Labs)
-GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan)
+Author: **Nandhakumar Murugan** (Google Student Ambassador • B.E. CS & Cyber Security @ KG KITE)
+GitHub: [nandhakumar-murugan](https://github.com/nandhakumar-murugan) • LinkedIn: [Nandhakumar Murugan](https://www.linkedin.com/in/nandhakumar-murugan/)
 
 Total Cataloged Websites: **392**
 
@@ -367,8 +367,8 @@ Total Cataloged Websites: **392**
 | **Google Transparency Report (Tunisia)** | [https://transparencyreport.google.com/user-data/overview?country=TN](https://transparencyreport.google.com/user-data/overview?country=TN) | Public Accountability | `Google` | Tunisia | Africa | Public Report | `Active` | Official accountability disclosures and government data requests reported for Tunisia. |
 | **Google Safety Center (Turkey)** | [https://safety.google/intl/tr_tr/](https://safety.google/intl/tr_tr/) | Consumer Safety & Privacy | `Google Security` | Turkey | Europe | Security Portal | `Active` | Privacy policy, security checkup tools, and family safety controls tailored for Turkey. |
 | **Google Transparency Report (Turkey)** | [https://transparencyreport.google.com/user-data/overview?country=TR](https://transparencyreport.google.com/user-data/overview?country=TR) | Public Accountability | `Google` | Turkey | Europe | Public Report | `Active` | Official accountability disclosures and government data requests reported for Turkey. |
-| **Google Safety Center (Turkkmenistan)** | [https://safety.google/intl/tk_tm/](https://safety.google/intl/tk_tm/) | Consumer Safety & Privacy | `Google Security` | Turkkmenistan | Asia | Security Portal | `Active` | Privacy policy, security checkup tools, and family safety controls tailored for Turkkmenistan. |
-| **Google Transparency Report (Turkkmenistan)** | [https://transparencyreport.google.com/user-data/overview?country=TM](https://transparencyreport.google.com/user-data/overview?country=TM) | Public Accountability | `Google` | Turkkmenistan | Asia | Public Report | `Active` | Official accountability disclosures and government data requests reported for Turkkmenistan. |
+| **Google Safety Center (Turkmenistan)** | [https://safety.google/intl/tk_tm/](https://safety.google/intl/tk_tm/) | Consumer Safety & Privacy | `Google Security` | Turkmenistan | Asia | Security Portal | `Active` | Privacy policy, security checkup tools, and family safety controls tailored for Turkmenistan. |
+| **Google Transparency Report (Turkmenistan)** | [https://transparencyreport.google.com/user-data/overview?country=TM](https://transparencyreport.google.com/user-data/overview?country=TM) | Public Accountability | `Google` | Turkmenistan | Asia | Public Report | `Active` | Official accountability disclosures and government data requests reported for Turkmenistan. |
 | **Google Safety Center (Tuvalu)** | [https://safety.google/intl/en_tv/](https://safety.google/intl/en_tv/) | Consumer Safety & Privacy | `Google Security` | Tuvalu | Oceania | Security Portal | `Active` | Privacy policy, security checkup tools, and family safety controls tailored for Tuvalu. |
 | **Google Transparency Report (Tuvalu)** | [https://transparencyreport.google.com/user-data/overview?country=TV](https://transparencyreport.google.com/user-data/overview?country=TV) | Public Accountability | `Google` | Tuvalu | Oceania | Public Report | `Active` | Official accountability disclosures and government data requests reported for Tuvalu. |
 | **Google Safety Center (Uganda)** | [https://safety.google/intl/en_ug/](https://safety.google/intl/en_ug/) | Consumer Safety & Privacy | `Google Security` | Uganda | Africa | Security Portal | `Active` | Privacy policy, security checkup tools, and family safety controls tailored for Uganda. |
