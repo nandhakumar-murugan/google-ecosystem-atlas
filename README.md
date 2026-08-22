@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Websites Cataloged](https://img.shields.io/badge/Cataloged%20Websites-10%2C263%2B-brightgreen.svg)](#)
 [![Countries Covered](https://img.shields.io/badge/Countries%20Covered-196%20Nations-blue.svg)](#)
-[![Visitors](https://hits.sh/nandhakumar-murugan.github.io/google-ecosystem-atlas.svg?view=today-total&style=flat&label=Visitors&color=1a73e8&labelColor=0f172a)](https://hits.sh/nandhakumar-murugan.github.io/google-ecosystem-atlas/)
+[![Visitors](https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1.svg?view=today-total&style=flat&label=Visitors&color=1a73e8&labelColor=0f172a)](https://hits.sh/nandhakumar-murugan-google-ecosystem-atlas-v1/)
 [![Author](https://img.shields.io/badge/Author-Nandhakumar%20Murugan-orange.svg)](https://github.com/nandhakumar-murugan)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-nandhakumar--murugan-181717?logo=github)](https://github.com/nandhakumar-murugan)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nandhakumar%20Murugan-0077B5?logo=linkedin)](https://www.linkedin.com/in/nandhakumar-murugan/)
