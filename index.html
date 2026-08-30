@@ -672,6 +672,7 @@
       </div>
 
       <div class="social-links-bar">
+        <a href="https://github.com/nandhakumar-murugan/google-ecosystem-atlas" target="_blank" class="social-btn" style="background: linear-gradient(135deg, #f59e0b, #d97706); color: #000; font-weight: 700; border-color: #fbbf24;">⭐ Star on GitHub</a>
         <a href="https://github.com/nandhakumar-murugan" target="_blank" class="social-btn">🐙 GitHub Profile</a>
         <a href="https://www.linkedin.com/in/nandhakumar-murugan/" target="_blank" class="social-btn">💼 LinkedIn Profile</a>
         <a href="mailto:24ucy129nandha@kgkite.ac.in" class="social-btn">📧 Institutional Contact</a>
@@ -1047,17 +1048,23 @@
       updateUI(count);
 
       try {
-        const res = await fetch("https://api.counterapi.dev/v1/nandhakumar-murugan-google-atlas/visits/up");
+        // Fetch from reliable Komarev GitHub Profile / Project Views Counter
+        const res = await fetch("https://komarev.com/ghpvc/?username=nandhakumar-murugan-google-atlas");
         if (res.ok) {
-          const data = await res.json();
-          if (data && typeof data.count === 'number') {
-            count = Math.max(count, data.count);
-            localStorage.setItem(visitorKey, count);
-            updateUI(count);
+          const text = await res.text();
+          const matches = text.match(/>([0-9,]+)<\/text>/g);
+          if (matches && matches.length > 0) {
+            const numStr = matches[matches.length - 1].replace(/[^0-9]/g, '');
+            const parsed = parseInt(numStr, 10);
+            if (!isNaN(parsed) && parsed > 0) {
+              count = Math.max(count, parsed);
+              localStorage.setItem(visitorKey, count);
+              updateUI(count);
+            }
           }
         }
       } catch (err) {
-        // Fallback to client count
+        // Fallback to local count
       }
     }
 
