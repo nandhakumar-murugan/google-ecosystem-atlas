@@ -619,6 +619,123 @@
     .footer-socials a:hover {
       text-decoration: underline;
     }
+  
+    /* --- High-Converting GitHub Star Modal & Floating Badge --- */
+    .star-modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(15, 23, 42, 0.82);
+      backdrop-filter: blur(8px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 99999;
+      animation: fadeInModal 0.3s ease-out;
+    }
+    @keyframes fadeInModal {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .star-modal-card {
+      background: linear-gradient(145deg, #1e293b, #0f172a);
+      border: 2px solid #f59e0b;
+      border-radius: 20px;
+      padding: 32px 28px;
+      max-width: 480px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(245, 158, 11, 0.25), 0 0 30px rgba(59, 130, 246, 0.2);
+      position: relative;
+    }
+    .star-modal-icon {
+      font-size: 48px;
+      margin-bottom: 12px;
+      animation: pulseStar 1.5s infinite alternate ease-in-out;
+    }
+    @keyframes pulseStar {
+      from { transform: scale(1); filter: drop-shadow(0 0 8px #f59e0b); }
+      to { transform: scale(1.15); filter: drop-shadow(0 0 16px #f59e0b); }
+    }
+    .star-modal-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: #f8fafc;
+      margin-bottom: 8px;
+    }
+    .star-modal-desc {
+      font-size: 14px;
+      color: #94a3b8;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .star-modal-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+    .btn-star-huge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      color: #000000;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 14px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      width: 100%;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+      transition: all 0.2s ease;
+    }
+    .btn-star-huge:hover {
+      background: linear-gradient(135deg, #fbbf24, #f59e0b);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
+    }
+    .btn-dismiss-modal {
+      background: transparent;
+      border: none;
+      color: #64748b;
+      font-size: 13px;
+      cursor: pointer;
+      text-decoration: underline;
+      padding: 6px;
+    }
+    .btn-dismiss-modal:hover {
+      color: #cbd5e1;
+    }
+    /* Floating Star Badge on bottom right */
+    .floating-star-cta {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: linear-gradient(135deg, #f59e0b, #d97706);
+      color: #000000;
+      padding: 12px 20px;
+      border-radius: 9999px;
+      font-weight: 800;
+      font-size: 14px;
+      box-shadow: 0 10px 25px rgba(245, 158, 11, 0.4);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      z-index: 9999;
+      transition: all 0.2s ease;
+    }
+    .floating-star-cta:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    }
+
   </style>
 </head>
 <body>
@@ -1071,6 +1188,66 @@
     // Start
     loadData();
     initVisitorCounter();
+
+    // --- Automatic High-Converting Star Prompt Logic ---
+    (function initStarPrompt() {
+      const modal = document.getElementById("starModalOverlay");
+      const btnStar = document.getElementById("btnStarConfirm");
+      const btnDismiss = document.getElementById("btnDismissModal");
+      const hasStarred = localStorage.getItem("atlas_user_starred");
+
+      // Auto-trigger modal after 3.5 seconds if user hasn't starred yet
+      if (!hasStarred) {
+        setTimeout(() => {
+          if (modal) modal.style.display = "flex";
+        }, 3500);
+      }
+
+      if (btnStar) {
+        btnStar.addEventListener("click", () => {
+          localStorage.setItem("atlas_user_starred", "true");
+          if (modal) modal.style.display = "none";
+        });
+      }
+
+      if (btnDismiss) {
+        btnDismiss.addEventListener("click", () => {
+          localStorage.setItem("atlas_user_starred", "true");
+          if (modal) modal.style.display = "none";
+        });
+      }
+    })();
+
   </script>
+
+  <!-- ⭐ High-Converting Star Prompt Modal -->
+  <div id="starModalOverlay" class="star-modal-overlay">
+    <div class="star-modal-card">
+      <div class="star-modal-icon">⭐</div>
+      <h2 class="star-modal-title">Support Open-Source Research!</h2>
+      <p class="star-modal-desc">
+        You are exploring the planetary directory of <b>10,263+ Google and Alphabet resources</b>. If you find this project valuable, please take <b>2 seconds to give it a Star on GitHub</b> to support student research!
+      </p>
+      
+      <div style="margin-bottom: 18px;">
+        <iframe src="https://ghbtns.com/github-btn.html?user=nandhakumar-murugan&repo=google-ecosystem-atlas&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub Star Button"></iframe>
+      </div>
+
+      <div class="star-modal-actions">
+        <a href="https://github.com/nandhakumar-murugan/google-ecosystem-atlas" target="_blank" id="btnStarConfirm" class="btn-star-huge">
+          ⭐ Star on GitHub Now
+        </a>
+        <button id="btnDismissModal" class="btn-dismiss-modal">
+          I already starred / Continue to Atlas →
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🌟 Permanent Floating Star CTA -->
+  <a href="https://github.com/nandhakumar-murugan/google-ecosystem-atlas" target="_blank" class="floating-star-cta" title="Star this repo on GitHub">
+    <span>⭐ Star on GitHub</span>
+  </a>
+
 </body>
 </html>
