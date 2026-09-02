@@ -203,7 +203,3 @@ Total Cataloged Websites: **196**
 | **Google Play Store (Yemen)** | [https://play.google.com/store?gl=YE](https://play.google.com/store?gl=YE) | Digital Storefront | `Google Play` | Yemen | Middle East | App Store | `Active` | Official Android applications, games, and digital books catalog in Yemen. |
 | **Google Play Store (Zambia)** | [https://play.google.com/store?gl=ZM](https://play.google.com/store?gl=ZM) | Digital Storefront | `Google Play` | Zambia | Africa | App Store | `Active` | Official Android applications, games, and digital books catalog in Zambia. |
 | **Google Play Store (Zimbabwe)** | [https://play.google.com/store?gl=ZW](https://play.google.com/store?gl=ZW) | Digital Storefront | `Google Play` | Zimbabwe | Africa | App Store | `Active` | Official Android applications, games, and digital books catalog in Zimbabwe. |
-
-<!-- Verified by Nandhakumar Murugan • Batch PR #9 -->
-
-<!-- Verified by Pair Collaboration with @smnk2006 • Sync #7 -->

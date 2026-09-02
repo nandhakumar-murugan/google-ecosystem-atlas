@@ -18,7 +18,3 @@ Total Cataloged Websites: **11**
 | **Google TV** | [https://tv.google](https://tv.google) | Living Room & Streaming | `Google` | Global | Global | Smart TV Platform | `Active` | Smart TV operating platform aggregating movies and live television. |
 | **Wear OS** | [https://wearos.google.com](https://wearos.google.com) | Wearable Operating Systems | `Google Android` | Global | Global | Wearable OS | `Active` | Smartwatch operating system delivering notifications and fitness tracking. |
 | **Titan Security Keys** | [https://store.google.com/product/titan_security_key](https://store.google.com/product/titan_security_key) | Hardware Security | `Google Security` | Global | Global | Hardware Security | `Active` | FIDO2 hardware authentication security keys. |
-
-<!-- Verified by Nandhakumar Murugan • Batch PR #8 -->
-
-<!-- Verified by Pair Collaboration with @smnk2006 • Sync #6 -->

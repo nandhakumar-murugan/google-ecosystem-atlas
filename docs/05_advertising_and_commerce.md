@@ -203,7 +203,3 @@ Total Cataloged Websites: **196**
 | **Google Ads (Yemen)** | [https://ads.google.com/intl/ar_ye/home/](https://ads.google.com/intl/ar_ye/home/) | Search & Display Advertising | `Google Ads` | Yemen | Middle East | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Yemen. |
 | **Google Ads (Zambia)** | [https://ads.google.com/intl/en_zm/home/](https://ads.google.com/intl/en_zm/home/) | Search & Display Advertising | `Google Ads` | Zambia | Africa | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Zambia. |
 | **Google Ads (Zimbabwe)** | [https://ads.google.com/intl/en_zw/home/](https://ads.google.com/intl/en_zw/home/) | Search & Display Advertising | `Google Ads` | Zimbabwe | Africa | Ad Portal | `Active` | Localized Google Ads campaign builder and marketing console in Zimbabwe. |
-
-<!-- Verified by Nandhakumar Murugan • Batch PR #7 -->
-
-<!-- Verified by Pair Collaboration with @smnk2006 • Sync #5 -->

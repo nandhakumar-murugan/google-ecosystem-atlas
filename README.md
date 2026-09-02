@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22259022.svg)](https://doi.org/10.5281/zenodo.22259022)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Nandhakumar_Murugan-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=ZcxswZYAAAAJ)
-[![Websites Cataloged](https://img.shields.io/badge/Cataloged%20Websites-10%2C263%2B-brightgreen.svg)](#)
+[![Websites Cataloged](https://img.shields.io/badge/Cataloged%20Websites-10%2C270%2B-brightgreen.svg)](#)
 [![Countries Covered](https://img.shields.io/badge/Countries%20Covered-196%20Nations-blue.svg)](#)
 [![Visitors](https://komarev.com/ghpvc/?username=nandhakumar-murugan-google-atlas&label=Visitors&color=1a73e8&style=flat)](https://github.com/nandhakumar-murugan/google-ecosystem-atlas)
 [![Author](https://img.shields.io/badge/Author-Nandhakumar%20Murugan-orange.svg)](https://github.com/nandhakumar-murugan)
@@ -70,12 +70,12 @@
 | 💼 **Advertising & Commerce** | **196** | Google Ads, AdSense, AdMob, Analytics 4, Merchant Center across 196 country commerce hubs |
 | 🎬 **Media & Entertainment** | **196** | YouTube, YouTube Music, YouTube Kids, YouTube TV, Google Play Store country storefronts |
 | 🗺️ **Geo & Spatial Computing** | **196** | Google Maps, Earth Engine, Street View, Waze, localized cartography in 196 nations |
-| 🔬 **AI & Machine Learning** | **40** | NotebookLM, Labs, Illuminate, DeepMind, AlphaFold 3, AlphaProteo, SIMA, Genie 2, Gemini 3.8 / 3.7 / 2.5, Gemma, JAX, TensorFlow |
+| 🔬 **AI & Machine Learning** | **47** | DeepMind Antigravity, Gemini 3.8 / 3.7 / 2.5, Model Armor, AgentShield, GenAI SDK, MCP, AlphaFold 3, AlphaProteo, SIMA, Genie 2, Gemma, JAX, TensorFlow |
 | 🛟 **Support & Knowledge Hubs** | **24** | Centralized help centers for all major consumer, enterprise, and developer products |
 | 🪦 **Google Graveyard & Legacy Archive**| **15** | Historical archive of Google Reader, Stadia, Google+, Inbox, Orkut, Picasa, Wave, Project Ara |
 | 🏢 **Alphabet & Other Bets** | **12** | Waymo, Verily, Calico, X (The Moonshot Factory), Wing, Isomorphic Labs, Intrinsic, GV, CapitalG, GFiber |
 | 📱 **Hardware & Operating Systems** | **11** | Pixel, Nest, Fitbit, Chromebooks, ChromeOS, Android, Wear OS, Google TV, Titan Security Keys |
-| **TOTAL VERIFIED ENTRIES** | **10,263** | **Planetary Google & Alphabet Web Footprint** |
+| **TOTAL VERIFIED ENTRIES** | **10,270** | **Planetary Google & Alphabet Web Footprint** |
 
 ---
 

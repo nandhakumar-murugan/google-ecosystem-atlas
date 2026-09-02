@@ -22,5 +22,3 @@ Total Cataloged Websites: **15**
 | **Google Code (Archive)** | [https://code.google.com/archive](https://code.google.com/archive) | Google Graveyard | `Google Open Source` | Global | Global | Discontinued / Historic | `Discontinued` | Open source project hosting service providing revision control and issue tracking (2006-2016). |
 | **iGoogle (Personalized Homepage Archive)** | [https://en.wikipedia.org/wiki/IGoogle](https://en.wikipedia.org/wiki/IGoogle) | Google Graveyard | `Google` | Global | Global | Discontinued / Historic | `Discontinued` | Customizable Ajax-based personal start page with gadget widgets (2005-2013). |
 | **Google Cloud IoT Core (Archive)** | [https://cloud.google.com/iot-core](https://cloud.google.com/iot-core) | Google Graveyard | `Google Cloud` | Global | Global | Discontinued / Historic | `Discontinued` | Managed service to easily and securely connect, manage, and ingest IoT data (2017-2023). |
-
-<!-- Verified by Nandhakumar Murugan • Batch PR #16 -->

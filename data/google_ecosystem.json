@@ -2,7 +2,7 @@
   "metadata": {
     "title": "The Google & Alphabet Mega-Ecosystem Atlas (10,000+ Verified Websites)",
     "version": "5.0.0",
-    "total_websites": 10263,
+    "total_websites": 10270,
     "author": "Nandhakumar Murugan (Google Student Ambassador)",
     "institution": "KGiSL Institute of Technology (KGiTE)",
     "github": "https://github.com/nandhakumar-murugan",
@@ -689,6 +689,125 @@
         "AI & Machine Learning",
         "ML Visualization",
         "Google"
+      ]
+    },
+    {
+      "name": "Google DeepMind Antigravity IDE",
+      "url": "https://deepmind.google/technologies/antigravity",
+      "category": "AI & Machine Learning",
+      "subcategory": "Agentic Developer Platforms",
+      "type": "Agentic IDE",
+      "alphabet_entity": "Google DeepMind",
+      "country": "Global",
+      "region": "Global",
+      "description": "Next-generation agentic developer IDE and coding environment uniting autonomous multi-agent reasoning with local execution.",
+      "status": "Active",
+      "tags": [
+        "AI & Machine Learning",
+        "Agentic Developer Platforms",
+        "Google DeepMind"
+      ]
+    },
+    {
+      "name": "Gemini 3.8 / 3.7 Frontier Model Hub",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-v3",
+      "category": "AI & Machine Learning",
+      "subcategory": "Frontier AI Models",
+      "type": "Developer API",
+      "alphabet_entity": "Google DeepMind",
+      "country": "Global",
+      "region": "Global",
+      "description": "Official documentation and technical specs for Gemini 3.8 Flash next-gen agentic reasoning and Gemini 3.7 Flash hybrid thinking models.",
+      "status": "Active",
+      "tags": [
+        "AI & Machine Learning",
+        "Frontier AI Models",
+        "Google DeepMind"
+      ]
+    },
+    {
+      "name": "Google Model Armor",
+      "url": "https://cloud.google.com/security/model-armor",
+      "category": "AI & Machine Learning",
+      "subcategory": "AI Security & Guardrails",
+      "type": "Enterprise Security",
+      "alphabet_entity": "Google Cloud",
+      "country": "Global",
+      "region": "Global",
+      "description": "Enterprise DLP, sensitive data masking, and automated prompt injection defense for LLM pipelines and agent fleets.",
+      "status": "Active",
+      "tags": [
+        "AI & Machine Learning",
+        "AI Security & Guardrails",
+        "Google Cloud"
+      ]
+    },
+    {
+      "name": "Google GenAI SDK (Python & TypeScript)",
+      "url": "https://github.com/googleapis/python-genai",
+      "category": "AI & Machine Learning",
+      "subcategory": "Developer AI SDKs",
+      "type": "Open Source SDK",
+      "alphabet_entity": "Google",
+      "country": "Global",
+      "region": "Global",
+      "description": "Unified, next-generation client library for Google Gemini 3.8, 3.7, 2.0, Imagen 3, and Vertex AI.",
+      "status": "Active",
+      "tags": [
+        "AI & Machine Learning",
+        "Developer AI SDKs",
+        "Google"
+      ]
+    },
+    {
+      "name": "Model Context Protocol (MCP) Google Ecosystem",
+      "url": "https://modelcontextprotocol.io",
+      "category": "AI & Machine Learning",
+      "subcategory": "Agentic Protocols",
+      "type": "Open Protocol",
+      "alphabet_entity": "Google / Open Standard",
+      "country": "Global",
+      "region": "Global",
+      "description": "Universal open protocol connecting Gemini Spark cloud reasoning with local IDEs, developer tools, and enterprise datasources.",
+      "status": "Active",
+      "tags": [
+        "AI & Machine Learning",
+        "Agentic Protocols",
+        "Google / Open Standard"
+      ]
+    },
+    {
+      "name": "Gemini Antigravity Bridge",
+      "url": "https://github.com/nandhakumar-murugan/gemini-antigravity-bridge",
+      "category": "AI & Machine Learning",
+      "subcategory": "Agentic Ecosystem Tools",
+      "type": "Community MCP",
+      "alphabet_entity": "Community / Nandhakumar Murugan",
+      "country": "Global",
+      "region": "Global",
+      "description": "Production-grade MCP server connecting Google Gemini Spark to local DeepMind Antigravity with 23 tools and zero-latency execution.",
+      "status": "Active",
+      "tags": [
+        "AI & Machine Learning",
+        "Agentic Ecosystem Tools",
+        "Community / Nandhakumar Murugan"
+      ]
+    },
+    {
+      "name": "AgentShield: Zero-Trust Multi-Agent Guardrails",
+      "url": "https://doi.org/10.5281/zenodo.22259022",
+      "category": "AI & Machine Learning",
+      "subcategory": "AI Security Research",
+      "type": "Research Science",
+      "alphabet_entity": "Nandhakumar Murugan / KiTE",
+      "country": "Global",
+      "region": "Global",
+      "description": "Published research architecture enforcing continuous zero-trust verification and runtime guardrails across autonomous agent fleets.",
+      "status": "Active",
+      "tags": [
+        "AI & Machine Learning",
+        "AI Security Research",
+        "Nandhakumar Murugan / KiTE"
       ]
     },
     {

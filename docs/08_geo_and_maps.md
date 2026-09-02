@@ -203,7 +203,3 @@ Total Cataloged Websites: **196**
 | **Google Maps (Yemen)** | [https://maps.google.ye](https://maps.google.ye) | Local Navigation | `Google Maps` | Yemen | Middle East | Navigation Service | `Active` | Localized Google Maps and navigation directions in Yemen. |
 | **Google Maps (Zambia)** | [https://maps.google.co.zm](https://maps.google.co.zm) | Local Navigation | `Google Maps` | Zambia | Africa | Navigation Service | `Active` | Localized Google Maps and navigation directions in Zambia. |
 | **Google Maps (Zimbabwe)** | [https://maps.google.co.zw](https://maps.google.co.zw) | Local Navigation | `Google Maps` | Zimbabwe | Africa | Navigation Service | `Active` | Localized Google Maps and navigation directions in Zimbabwe. |
-
-<!-- Verified by Nandhakumar Murugan • Batch PR #10 -->
-
-<!-- Verified by Pair Collaboration with @smnk2006 • Sync #8 -->

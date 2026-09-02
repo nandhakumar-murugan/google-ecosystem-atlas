@@ -4,7 +4,7 @@ import os
 import sys
 from pathlib import Path
 
-BASE_DIR = Path(r"C:\Users\smnk2\.gemini\antigravity\brain\752249c2-953d-4d40-a753-1ed6d83baaca\scratch\google-ecosystem-atlas")
+BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 DOCS_DIR = BASE_DIR / "docs"
 SCRIPTS_DIR = BASE_DIR / "scripts"
@@ -86,7 +86,14 @@ ai_platforms = [
     ("Experiments with Google", "https://experiments.withgoogle.com", "Human-Centered AI", "Google Creative Lab", "Showcase of creative coder experiments across AI, WebXR, Chrome, Android, and voice computing.", "Community Showcase"),
     ("Google Semantris", "https://research.google.com/semantris", "Human-Centered AI", "Google Research", "Word association game powered by semantic machine learning neural embeddings.", "AI Experiment"),
     ("Google Shadow Art", "https://shadowart.withgoogle.com", "Human-Centered AI", "Google Creative Lab", "AI shadow puppet game utilizing TensorFlow.js and camera recognition.", "AI Experiment"),
-    ("Visualizing High-Dimensional Space (Embedding Projector)", "https://projector.tensorflow.org", "ML Visualization", "Google", "Interactive web tool to explore PCA, t-SNE, and UMAP high-dimensional embeddings in 3D.", "Visualization Tool")
+    ("Visualizing High-Dimensional Space (Embedding Projector)", "https://projector.tensorflow.org", "ML Visualization", "Google", "Interactive web tool to explore PCA, t-SNE, and UMAP high-dimensional embeddings in 3D.", "Visualization Tool"),
+    ("Google DeepMind Antigravity IDE", "https://deepmind.google/technologies/antigravity", "Agentic Developer Platforms", "Google DeepMind", "Next-generation agentic developer IDE and coding environment uniting autonomous multi-agent reasoning with local execution.", "Agentic IDE"),
+    ("Gemini 3.8 / 3.7 Frontier Model Hub", "https://ai.google.dev/gemini-api/docs/models/gemini-v3", "Frontier AI Models", "Google DeepMind", "Official documentation and technical specs for Gemini 3.8 Flash next-gen agentic reasoning and Gemini 3.7 Flash hybrid thinking models.", "Developer API"),
+    ("Google Model Armor", "https://cloud.google.com/security/model-armor", "AI Security & Guardrails", "Google Cloud", "Enterprise DLP, sensitive data masking, and automated prompt injection defense for LLM pipelines and agent fleets.", "Enterprise Security"),
+    ("Google GenAI SDK (Python & TypeScript)", "https://github.com/googleapis/python-genai", "Developer AI SDKs", "Google", "Unified, next-generation client library for Google Gemini 3.8, 3.7, 2.0, Imagen 3, and Vertex AI.", "Open Source SDK"),
+    ("Model Context Protocol (MCP) Google Ecosystem", "https://modelcontextprotocol.io", "Agentic Protocols", "Google / Open Standard", "Universal open protocol connecting Gemini Spark cloud reasoning with local IDEs, developer tools, and enterprise datasources.", "Open Protocol"),
+    ("Gemini Antigravity Bridge", "https://github.com/nandhakumar-murugan/gemini-antigravity-bridge", "Agentic Ecosystem Tools", "Community / Nandhakumar Murugan", "Production-grade MCP server connecting Google Gemini Spark to local DeepMind Antigravity with 23 tools and zero-latency execution.", "Community MCP"),
+    ("AgentShield: Zero-Trust Multi-Agent Guardrails", "https://doi.org/10.5281/zenodo.22259022", "AI Security Research", "Nandhakumar Murugan / KiTE", "Published research architecture enforcing continuous zero-trust verification and runtime guardrails across autonomous agent fleets.", "Research Science")
 ]
 for title, url, subcat, ent, desc, etype in ai_platforms:
     add_entry(title, url, "AI & Machine Learning", subcat, ent, desc, etype)

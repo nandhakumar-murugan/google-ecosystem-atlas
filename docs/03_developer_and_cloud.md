@@ -597,7 +597,3 @@ Total Cataloged Websites: **590**
 | **Google API Service: Google Identity Toolkit API** | [https://identitytoolkit.googleapis.com](https://identitytoolkit.googleapis.com) | Cloud Infrastructure | `Google Cloud` | Global | Global | Cloud API Endpoint | `Active` | Official Google Cloud endpoint and service descriptor for Google Identity Toolkit API. |
 | **Google API Service: Google Pay API for Passes** | [https://walletobjects.googleapis.com](https://walletobjects.googleapis.com) | Cloud Infrastructure | `Google Cloud` | Global | Global | Cloud API Endpoint | `Active` | Official Google Cloud endpoint and service descriptor for Google Pay API for Passes. |
 | **Google API Service: Google Play Android Publisher API** | [https://androidpublisher.googleapis.com](https://androidpublisher.googleapis.com) | Cloud Infrastructure | `Google Cloud` | Global | Global | Cloud API Endpoint | `Active` | Official Google Cloud endpoint and service descriptor for Google Play Android Publisher API. |
-
-<!-- Verified by Nandhakumar Murugan • Batch PR #5 -->
-
-<!-- Verified by Pair Collaboration with @smnk2006 • Sync #3 -->

@@ -31,5 +31,3 @@ Total Cataloged Websites: **24**
 | **Google Cloud Support Center** | [https://cloud.google.com/support](https://cloud.google.com/support) | Official Product Support | `Google Cloud` | Global | Global | Support Portal | `Active` | Enterprise technical support cases, SLAs, and Cloud Customer Care. |
 | **Fitbit Help Center** | [https://myhelp.fitbit.com](https://myhelp.fitbit.com) | Official Product Support | `Google / Fitbit` | Global | Global | Support Portal | `Active` | Wearable pairing, step tracking accuracy, and Fitbit Premium guides. |
 | **Waze Help Center** | [https://support.google.com/waze](https://support.google.com/waze) | Official Product Support | `Google / Waze` | Global | Global | Support Portal | `Active` | Community map reporting, carpool coordination, and route guidance. |
-
-<!-- Verified by Nandhakumar Murugan • Batch PR #15 -->

@@ -7205,9 +7205,3 @@ Total Cataloged Websites: **7198**
 | **Women Techmakers Wellington** | [https://developers.google.com/womentechmakers/chapters/wellington](https://developers.google.com/womentechmakers/chapters/wellington) | Diversity & Inclusion | `Google Developers` | New Zealand | Oceania | Diversity Chapter | `Active` | Women Techmakers chapter supporting female engineers and tech innovators in Wellington, New Zealand. |
 | **GDG Christchurch** | [https://gdg.community.dev/gdg-christchurch/](https://gdg.community.dev/gdg-christchurch/) | Developer Communities | `Google Developers` | New Zealand | Oceania | Developer Community | `Active` | Official Google Developer Group chapter bringing software engineers together in Christchurch, New Zealand. |
 | **Women Techmakers Christchurch** | [https://developers.google.com/womentechmakers/chapters/christchurch](https://developers.google.com/womentechmakers/chapters/christchurch) | Diversity & Inclusion | `Google Developers` | New Zealand | Oceania | Diversity Chapter | `Active` | Women Techmakers chapter supporting female engineers and tech innovators in Christchurch, New Zealand. |
-
-<!-- Verified by Nandhakumar Murugan • Batch PR #12 -->
-
-<!-- Verified by Pair Collaboration with @smnk2006 • Sync #10 -->
-
-<!-- Verified by Pair Collaboration with @smnk2006 � Sync #10 -->
